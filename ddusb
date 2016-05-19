@@ -1,0 +1,62 @@
+#!/bin/bash
+#!/bin/sh
+storage_dir=/media/Software/Software
+
+mintmate=${storage_dir}/DVDImages/mintmate.iso
+ubuntugnome=${storage_dir}/DVDImages/ubuntugnome.iso
+ubuntuserver=${storage_dir}/DVDImages/ubuntuserver.iso
+raspbian_jessie=${storage_dir}/Raspberry_PI/raspbian_jessie.img
+raspbian_wheezy=${storage_dir}/Raspberry_PI/raspbian_wheezy.img
+bananian=${storage_dir}/Raspberry_PI/bananian.img
+openelec=${storage_dir}/Raspberry_PI/openelec.img
+
+NULL=/dev/null
+DRIVE=$(find /dev -mindepth 1 -maxdepth 1  -name "*[sh]d[a-z]"  | sort | awk '{ printf "FALSE""\0"$0"\0" }' | \
+xargs -0 zenity --list --title="Root Partition" --text="Choose a drive" \
+--radiolist --multiple --column ' ' --column 'Devices')
+
+ANS=$(zenity  --list  --text "Type Of Installation" --radiolist  --column "Pick" --column "Type" TRUE "Live USB" FALSE "SD Card" FALSE "Manual File Selection")
+
+
+case "$ANS" in
+        'Live USB')
+                OS=$(zenity  --list  --text "OS for Installation" --radiolist  --column "Pick" --column "Type" TRUE "Linux Mint Mate" FALSE "Ubuntu Gnome 16.06" )
+                ;;
+        'SD Card')
+                OS=$(zenity  --list  --text "OS for Installation" --radiolist  --column "Pick" --column "Type" TRUE "Raspbian" FALSE "Bananian" FALSE "OSMC" FALSE "OpenELEC")
+                case "$OS" in
+                        "Raspbian")
+                                CHOICE=$(zenity  --list  --text "OS for Installation" --radiolist  --column "Pick" --column "Type" TRUE "Jessie" FALSE "Wheezy")
+                                case "$CHOICE" in
+                                        "Jessie")
+                                                FILE=${raspbian_jessie}
+                                                ;;
+                                        "Wheezy")
+                                                FILE=${raspbian_wheezy}
+                                                ;;
+                                esac
+                                ;;
+                        "OpenELEC")
+                                FILE=${openelec}
+                                ;;
+                        "Bananian")
+                                FILE=${bananian}
+                                ;;
+                        "OSMC")
+                                gksu osmcinstaller
+                                ;;
+                esac
+                ;;
+        'Manual File Selection')
+                FILE=`zenity --file-selection --directory --title="Select a File" --filename=$HOME/Downloads/`
+                ;;
+esac
+if [ -z "$FILE" ]; then
+        zenity --info --text "Flashing Complete"
+
+else
+        zenity --info --text "Writing "${FILE}" to "${DRIVE}
+        terminator -T "Flashing Drive Now" -e "sudo pv "${FILE}" | sudo dd of="${DRIVE}" bs=1M"
+        zenity --info --text "Flashing Complete"
+fi
+

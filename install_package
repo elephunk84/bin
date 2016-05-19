@@ -1,0 +1,7 @@
+#!/bin/bash
+PACKAGE=$(zenity --entry \
+--title="Install a Package" \
+--text="Name of Package to Install:" \
+--entry-text "Package")
+
+sudo apt-get -y install ${PACKAGE}

@@ -1,0 +1,7 @@
+#!/bin/bash
+PACKAGE=$(zenity --entry \
+--title="Uninstall a Package" \
+--text="Name of Package to Remove:" \
+--entry-text "Package")
+
+sudo apt-get purge -y ${PACKAGE}
