@@ -1,10 +1,11 @@
 #!/bin/bash
 
 ##Setup working env
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 working_dir=/home/iainstott/.conky/Iains_Desktop/
 log_file=~/log_file
-rm -rf log_file
-touch log_file
+rm -rf ${log_file}
+touch ${log_file}
 
 ##Set Ping IP and list
 raspi1=192.168.1.1
@@ -27,22 +28,18 @@ manual=${heating_dir}/resources/status
 for i in "${ping_ip[@]}"
 do
   if ping -c 1 -W 1 $i > /dev/null; then
-  echo "On-Line" >> log_file
+  echo "On-Line" >> ${log_file}
   else
-  echo "Off-Line" >> log_file
+  echo "Off-Line" >> ${log_file}
   fi
 done
 
-ssh pi@${raspi5} "cat ${summer}" >> log_file
-ssh pi@${raspi5} "cat ${manual}" >> log_file
-ssh pi@${raspi5} "cat ${status}" >> log_file
-echo >> log_file
-nm-tool |grep --only-matching '*[^ ][^:]*' |sed 's/^*//' >> log_file
-/sbin/ifconfig $1 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}' | grep -v '127.0.0.1' >> log_file
-wget http://ipinfo.io/ip -qO - >> log_file
+ssh pi@${raspi5} "cat ${summer}" >> ${log_file}
+ssh pi@${raspi5} "cat ${manual}" >> ${log_file}
+ssh pi@${raspi5} "cat ${status}" >> ${log_file}
+echo >> ${log_file}
+nm-tool |grep --only-matching '*[^ ][^:]*' |sed 's/^*//' >> ${log_file}
+/sbin/ifconfig $1 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}' | grep -v '127.0.0.1' >> ${log_file}
+wget http://ipinfo.io/ip -qO - >> ${log_file}
 
-killall conky
-cd "/home/iainstott/.conky/Iains_Desktop"
-conky -c calendar 
-conky -c clock 
-conky -c local_system"
+sh /home/iainstott/.conky/conky-startup.sh

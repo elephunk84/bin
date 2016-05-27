@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Please enter file to flash..."
+read TEMPFILE
+scp $TEMPFILE pi@192.168.0.131:/home/pi/GitRepo/sketchbook
+ssh pi@192.168.0.131 'sudo avrdude -p m2560 -C ~/avrdude_gpio.conf -c pi_1 -v -U /home/pi/GitRepo/sketchbook/Bedroom_Control.ino.hex'
