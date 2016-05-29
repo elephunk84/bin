@@ -13,10 +13,10 @@ raspi2=192.168.1.2
 raspi3=192.168.1.3
 raspi4=192.168.1.4
 raspi5=192.168.1.5
-raspi6=192.168.0.129
-raspiD=192.168.0.130
+raspi6=192.168.0.130
+raspi7=192.168.0.131
 server=192.168.0.110
-ping_ip=(${raspi1} ${raspi2} ${raspi3} ${raspi4} ${raspi5} ${raspi6} ${raspiD} ${server})
+ping_ip=("$raspi1" "$raspi2" "$raspi3" "$raspi4" "$raspi5" "$raspi6" "$raspiD" "$server")
 
 ##Central Heating 
 heating_dir=/home/pi/GitRepo/centralheating
@@ -42,4 +42,4 @@ nm-tool |grep --only-matching '*[^ ][^:]*' |sed 's/^*//' >> ${log_file}
 /sbin/ifconfig $1 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}' | grep -v '127.0.0.1' >> ${log_file}
 wget http://ipinfo.io/ip -qO - >> ${log_file}
 
-sh /home/iainstott/.conky/conky-startup.sh
+
