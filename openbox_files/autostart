@@ -1,0 +1,5 @@
+tint2 &
+feh --bg-fill ~/Pictures/bg.jpg & 
+mate-power-manager &
+~/.conky/ConkyBar/conky_start &
+/usr/bin/mate-volume-control-applet &

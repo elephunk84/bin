@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Terminal emulator">
+			<action name="Execute">
+				<execute>terminator</execute>
+			</action>
+		</item>
+		<item label="Web browser">
+			<action name="Execute">
+				<execute>x-www-browser</execute>
+			</action>
+		</item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<item label="File Manager">
+			<action name="Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<item label="Text Editor">
+			<action name="Execute">
+				<execute>geany</execute>
+			</action>
+		</item>
+		<item label="Arduino">
+			<action name="Execute">
+				<execute>/home/iainstott/Downloads/arduino-1.6.8/arduino</execute>
+			</action>
+		</item>
+		<item label="Kodi">
+			<action name="Execute">
+				<execute>kodi</execute>
+			</action>
+		</item>
+		<item label="Deluge">
+			<action name="Execute">
+				<execute>deluge</execute>
+			</action>
+		</item>
+		<item label="Remmina">
+			<action name="Execute">
+				<execute>remmina</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-163521" label="My Menu">
+			<item label="Wake Server">
+				<action name="Execute">
+					<execute>wakeonlan F0:4D:A2:DB:E0:D8</execute>
+				</action>
+			</item>
+			<item label="Sleep Server">
+				<action name="Execute">
+					<execute>ssh iainstott@192.168.0.110 sudo pm-hibernate</execute>
+				</action>
+			</item>
+			<item label="Virt-Manager">
+				<action name="Execute">
+					<execute>sudo virt-manager</execute>
+				</action>
+			</item>
+			<item label="Kodi Menu">
+				<action name="Execute">
+					<execute>~/.bin/kodimenu_launcher</execute>
+				</action>
+			</item>
+			<separator/>
+			<menu id="root-menu-163521-913540" label="SSH Connections">
+				<item label="Raspi-1">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e &quot;ssh -Y root@192.168.0.200&quot;</execute>
+					</action>
+				</item>
+				<item label="Raspi-2">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e &quot;ssh -Y pi@192.168.1.2&quot;</execute>
+					</action>
+				</item>
+				<item label="Raspi-3">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e &quot;ssh -Y pi@192.168.1.3&quot;</execute>
+					</action>
+				</item>
+				<item label="Raspi-4">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e &quot;ssh -Y pi@192.168.1.4&quot;</execute>
+					</action>
+				</item>
+				<item label="Raspi-5">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e &quot;ssh -Y pi@192.168.1.5&quot;</execute>
+					</action>
+				</item>
+				<item label="Raspi-6">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e &quot;ssh -Y pi@192.168.0.129&quot;</execute>
+					</action>
+				</item>
+				<item label="Raspi-Dev">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e &quot;ssh -Y pi@192.168.0.130&quot;</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-163521-76144" label="System Scripts">
+				<item label="Flash USB/SD">
+					<action name="Execute">
+						<execute>~/.bin/ddusb</execute>
+					</action>
+				</item>
+				<item label="Install Package">
+					<action name="Execute">
+						<execute>~/.bin/install_package</execute>
+					</action>
+				</item>
+				<item label="Uninstall Package">
+					<action name="Execute">
+						<execute>~/.bin/uninstall_package</execute>
+					</action>
+				</item>
+				<item label="Upgrade System">
+					<action name="Execute">
+						<execute>terminator -e &quot;sudo apt-get update &amp;&amp; sudo apt-get -y upgrade&quot;</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-163521-571415" label="Server Scripts">
+				<item label="New Item">
+					<action name="Execute">
+						<execute>command</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-163521-41480" label="Edit Config Files">
+				<item label="bashrc">
+					<action name="Execute">
+						<execute>geany ~/.bashrc</execute>
+					</action>
+				</item>
+				<separator/>
+				<item label="rc.local">
+					<action name="Execute">
+						<execute>gksu geany /etc/rc.local</execute>
+					</action>
+				</item>
+				<item label="Interfaces">
+					<action name="Execute">
+						<execute>gksu geany /etc/network/interfaces</execute>
+					</action>
+				</item>
+			</menu>
+			<separator/>
+			<item label="Autostart">
+				<action name="Execute">
+					<execute>geany ~/.config/openbox/autostart</execute>
+				</action>
+			</item>
+			<item label="Conky Manager">
+				<action name="Execute">
+					<execute>conky-manager</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-905835" label="Office">
+			<item label="Libre Office">
+				<action name="Execute">
+					<execute>libreoffice</execute>
+				</action>
+			</item>
+			<item label="Simple Scan">
+				<action name="Execute">
+					<execute>simple-scan</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-59350" label="System">
+			<item label="Control Center">
+				<action name="Execute">
+					<execute>mate-control-center</execute>
+				</action>
+			</item>
+			<item label="GParted">
+				<action name="Execute">
+					<execute>gksu gparted</execute>
+				</action>
+			</item>
+			<item label="Heimdall">
+				<action name="Execute">
+					<execute>gksu /usr/bin/heimdall-frontend</execute>
+				</action>
+			</item>
+			<item label="LxAppearance">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<item label="Obconf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Obmenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="OSMC Installer">
+				<action name="Execute">
+					<execute>gksu osmcinstaller</execute>
+				</action>
+			</item>
+			<item label="QTCreator">
+				<action name="Execute">
+					<execute>qtcreator</execute>
+				</action>
+			</item>
+			<item label="Unetbootin">
+				<action name="Execute">
+					<execute>gksu unetbootin</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="client-list-menu"/>
+		<separator/>
+		<item label="Shutdown">
+			<action name="Execute">
+				<execute>sudo poweroff</execute>
+			</action>
+		</item>
+		<item label="Restart">
+			<action name="Execute">
+				<execute>sudo reboot</execute>
+			</action>
+		</item>
+		<item label="Log Out">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
