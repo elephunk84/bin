@@ -24,6 +24,11 @@ alias la='ls -lah $LS_COLOR'
 alias sl="ls"
 alias l="ls"
 alias s="ls"
+alias ping="pinc -c 10"
+alias mx='chmod a+x'
+alias 000='chmod 000'
+alias 644='chmod 644'
+alias 755='chmod 755'
 alias raspi1="ssh -Y root@192.168.0.200"
 alias raspi2="ssh -Y osmc@192.168.1.2"
 alias raspi3="ssh -Y pi@192.168.1.3"
@@ -34,6 +39,7 @@ alias raspi7="ssh -Y pi@192.168.0.131"
 alias raspi8="ssh -Y pi@192.168.0.111"
 alias server="ssh -Y iainstott@192.168.0.110"
 alias install="sudo apt-get update && sudo apt-get -y install"
+alias install-suggests="sudo apt-get update && sudo apt-get -y install --install-suggests"
 alias upgrade="sudo apt-get update && sudo apt-get -y upgrade"
 alias cleanup="sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get clean && sudo apt-get remove && orphand"
 alias wakeserver="wakeonlan F0:4D:A2:DB:E0:D8"
@@ -45,11 +51,14 @@ alias git-update='git add --all && git commit -m "update" && git push origin mas
 alias update-gitrepo='cd /home/iainstott/GitRepo/ && for i in $( ls ); do cd $i; echo "Repository = "$i; git-update; echo ""; cd /home/iainstott/GitRepo; done'
 alias unigrep='grep -P "[^\x00-\x7F]"'
 alias grep="grep --color=auto"
+alias diskspace="du -S | sort -n -r |most"
+alias f='more ~/.bash_eternal_history | grep '
 
 function cdn(){ for i in `seq $1`; do cd ..; done;}
 function cl(){ cd "$@" && la; }
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo `dt` `pwd` $$ $USER \ "$(history 1)" >> ~/.bash_eternal_history'
 export GREP_OPTIONS='--color=auto'
+export PAGER="/usr/bin/most -s"
 
 if [ -f /etc/bash_completion ]; then
         . /etc/bash_completion
@@ -100,3 +109,34 @@ mkcdr () {
     mkdir -p -v $1
     cd $1
 }
+
+translate ()
+{
+TRANSLATED=`lynx -dump "http://translate.reference.com/browse/${1}" | grep -i -m 1 -w "${2}:" | sed 's/^[ \t]*//;s/[ \t]*$//'`
+if [[ ${#TRANSLATED} != 0 ]] ;then
+   echo "\"${1}\" in ${TRANSLATED}"
+   else
+   echo "Sorry, I can not translate \"${1}\" to ${2}"
+fi
+}
+
+function apt-history(){
+      case "$1" in
+        install)
+              cat /var/log/dpkg.log | grep 'install '
+              ;;
+        upgrade|remove)
+              cat /var/log/dpkg.log | grep $1
+              ;;
+        rollback)
+              cat /var/log/dpkg.log | grep upgrade | \
+                  grep "$2" -A10000000 | \
+                  grep "$3" -B10000000 | \
+                  awk '{print $4"="$5}'
+              ;;
+        *)
+              cat /var/log/dpkg.log
+              ;;
+      esac
+}
+
