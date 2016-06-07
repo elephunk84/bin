@@ -1,3 +1,4 @@
+alias dt='date "+%F %T"'
 alias ll="ls -l"
 alias lo="ls -o"
 alias lh="ls -lh"
@@ -24,4 +25,19 @@ alias wget="wget -c"
 alias arduino-dev="ssh -Y pi@192.168.0.130 arduino"
 alias git-update='git add --all && git commit -m "update" && git push origin master' 
 alias update-gitrepo='cd /home/iainstott/GitRepo/ && for i in $( ls ); do cd $i; echo "Repository = "$i; git-update; echo ""; cd /home/iainstott/GitRepo; done'
+alias grep='grep --color=auto'
+alias unigrep='grep -P "[^\x00-\x7F]"'
 
+function cdn(){ for i in `seq $1`; do cd ..; done;}
+function cl(){ cd "$@" && la; }
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo `dt` `pwd` $$ $USER \ "$(history 1)" >> ~/.bash_eternal_history'
+
+if [ -f /etc/bash_completion ]; then
+        . /etc/bash_completion
+fi
+if [ -f /etc/bash_completion.d/git-completion.bash ]; then
+        . /etc/bash_completion.d/git-completion.bash;
+fi
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1="\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]\$(__git_ps1 ' %s')\[\033[01;34m\] \$\[\033[00m\] "
+export PS1="\[\033[G\]$PS1"
