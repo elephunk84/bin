@@ -1,21 +1,22 @@
 #!/bin/bash
 #!/bin/sh
-storage_dir=/media/Software/Software
+storage_dir=/home/iainstott/ISO_Images
 
-mintmate=${storage_dir}/DVDImages/mintmate.iso
-ubuntugnome=${storage_dir}/DVDImages/ubuntugnome.iso
-ubuntuserver=${storage_dir}/DVDImages/ubuntuserver.iso
+mintmate=${storage_dir}/Linux/mintmate.iso
+ubuntugnome=${storage_dir}/Linux/ubuntugnome.iso
+ubuntuserver=${storage_dir}/Linux/ubuntuserver.iso
 raspbian_jessie=${storage_dir}/Raspberry_PI/raspbian_jessie.img
 raspbian_wheezy=${storage_dir}/Raspberry_PI/raspbian_wheezy.img
 bananian=${storage_dir}/Raspberry_PI/bananian.img
 openelec=${storage_dir}/Raspberry_PI/openelec.img
+serverR2=${storage_dir}/Windows/2012R2.iso
 
 NULL=/dev/null
 DRIVE=$(find /dev -mindepth 1 -maxdepth 1  -name "*[sh]d[a-z]"  | sort | awk '{ printf "FALSE""\0"$0"\0" }' | \
 xargs -0 zenity --list --title="Root Partition" --text="Choose a drive" \
 --radiolist --multiple --column ' ' --column 'Devices')
 
-ANS=$(zenity  --list  --text "Type Of Installation" --radiolist  --column "Pick" --column "Type" TRUE "Live USB" FALSE "SD Card" FALSE "Manual File Selection")
+ANS=$(zenity  --list  --text "Type Of Installation" --radiolist  --column "Pick" --column "Type" TRUE "Live USB" FALSE "SD Card" FALSE "Windows" FALSE "Manual File Selection")
 
 
 case "$ANS" in
@@ -47,8 +48,23 @@ case "$ANS" in
                                 ;;
                 esac
                 ;;
+        'Windows')
+				OS=$(zenity  --list  --text "OS for Installation" --radiolist  --column "Pick" --column "Type" TRUE "7 x32" FALSE "7 x64" FALSE "10 x32" FALSE "10 x64" FALSE "2012 R2")
+				case $OS in 
+					"2012 R2")
+						WINDOWS=${serverR2}
+						;;
+				esac
+				sudo fdisk ${DRIVE}
+				sudo mkfs.ntfs -f ${DRIVE}
+				sudo dd if=/usr/lib/syslinux/bios/mbr.bin of=${DRIVE}
+				sudo mount -o loop ${WINDOWS} /mnt/iso
+				sudo mount ${DRIVE}1 /mnt/usb
+				cp -r /mnt/iso/* /mnt/usb/
+				sync
+				;;
         'Manual File Selection')
-                FILE=`zenity --file-selection --directory --title="Select a File" --filename=$HOME/Downloads/`
+                FILE=`zenity --file-selection --title="Select a File" --filename=$HOME/ISO_Images/`
                 ;;
 esac
 if [ -z "$FILE" ]; then

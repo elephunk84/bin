@@ -1,0 +1,6 @@
+case 
+#!/bin/bash
+TEMPFILE=$1
+scp $TEMPFILE pi@192.168.0.131:/home/pi/GitRepo/sketchbook
+FILENAME="${TEMPFILE##*/}"
+ssh pi@192.168.0.131 'sudo avrdude -p m2560 -C ~/avrdude_gpio.conf -c pi_1 -v -U /home/pi/GitRepo/sketchbook/'$FILENAME
