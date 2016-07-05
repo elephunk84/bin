@@ -1,0 +1,5 @@
+#!/bin/bash
+TEMPFILE=$1
+scp $TEMPFILE osmc@192.168.0.130:/home/osmc/sketchbook
+FILENAME="${TEMPFILE##*/}"
+ssh osmc@192.168.0.130 'sudo avrdude -p atmega328p -b 57600 -c arduino -v -U /home/osmc/sketchbook/'$FILENAME
