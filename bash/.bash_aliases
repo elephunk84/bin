@@ -38,12 +38,13 @@ alias raspi6="ssh -Y osmc@192.168.0.130"
 alias raspi7="ssh -Y pi@192.168.0.131"
 alias raspi8="ssh -Y pi@192.168.0.111"
 alias server="ssh -Y iainstott@192.168.0.110"
+alias sub="ssh -Y pi@192.168.0.128"
 alias install="sudo apt-get update && sudo apt-get -y install"
 alias install-suggests="sudo apt-get update && sudo apt-get -y install --install-suggests"
 alias upgrade="sudo apt-get update && sudo apt-get -y upgrade"
 alias cleanup="sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get clean && sudo apt-get remove && orphand"
-alias wakeserver="wakeonlan F0:4D:A2:DB:E0:D8"
-alias sleepserver="ssh iainstott@192.168.0.110 sudo pm-hibernate" 
+alias wakeserver="wakeonlan f0:4d:a2:db:e0:d8"
+alias sleepserver="ssh iainstott@192.168.0.110 -t 'sudo poweroff -n'" 
 alias reboot="sudo shutdown -r now"
 alias wget="wget -c"
 alias arduino="/opt/arduino-1.6.9/arduino"
@@ -54,5 +55,6 @@ alias unigrep='grep -P "[^\x00-\x7F]"'
 alias grep="grep --color=auto"
 alias diskspace="du -S | sort -n -r |most"
 alias f='more ~/.bash_eternal_history | grep '
-
+alias sub-reboot="ssh pi@192.168.0.128 sudo shutdown -r now"
+alias sub-update='cd ~/GitRepo/Submersible && git-update >> /dev/null && ssh pi@192.168.0.128 -t "cd Submersible;git pull"'
 
