@@ -1,3 +1,5 @@
+# .bash_profile
+
 black='\e[0;30m'
 blue='\e[0;34m'
 green='\e[0;32m'
@@ -16,6 +18,59 @@ yellow='\e[1;33m'
 white='\e[1;37m'
 nc='\e[0m'
 
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+PATH=$PATH:$HOME/.local/.bin:$HOME/.bin
+export PATH
+
+# Eternal History
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo `dt` `pwd` $$ $USER \
+               "$(history 1)" >> ~/.bash_eternal_history'
+
+# Bash Autocomplete
+bind '"\e[A": history-search-backward' 
+bind '"\e[B": history-search-forward'
+
+# Remote Prompt
+function __setprompt {
+
+  local SSH_IP=`echo $SSH_CLIENT | awk '{ print $1 }'`
+  local SSH2_IP=`echo $SSH2_CLIENT | awk '{ print $1 }'`
+  if [ $SSH2_IP ] || [ $SSH_IP ] ; then
+    local SSH_FLAG="@\h"
+  fi
+  PS1="$BLUE[\$(date +%H:%M)][\u$SSH_FLAG:\w]\\$ $NO_COLOUR"
+  PS2="$BLUE>$NO_COLOUR "
+  PS4='$BLUE+$NO_COLOUR '
+}
+__setprompt
+
+# Extract Function
+extract () {
+   if [ -f $1 ] ; then
+       case $1 in
+           *.tar.bz2)   tar xvjf $1    ;;
+           *.tar.gz)    tar xvzf $1    ;;
+           *.bz2)       bunzip2 $1     ;;
+           *.rar)       unrar x $1       ;;
+           *.gz)        gunzip $1      ;;
+           *.tar)       tar xvf $1     ;;
+           *.tbz2)      tar xvjf $1    ;;
+           *.tgz)       tar xvzf $1    ;;
+           *.zip)       unzip $1       ;;
+           *.Z)         uncompress $1  ;;
+           *.7z)        7z x $1        ;;
+           *)           echo "don't know how to extract '$1'..." ;;
+       esac
+   else
+       echo "'$1' is not a valid file!"
+   fi
+ }
+ 
 alias dt='date "+%F %T"'
 alias ll="ls -l"
 alias lo="ls -o"
