@@ -18,11 +18,6 @@ yellow='\e[1;33m'
 white='\e[1;37m'
 nc='\e[0m'
 
-# Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-	. ~/.bashrc
-fi
-
 # User specific environment and startup programs
 PATH=$PATH:$HOME/.local/.bin:$HOME/.bin
 export PATH
