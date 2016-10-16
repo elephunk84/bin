@@ -1,5 +1,3 @@
-# .bash_profile
-
 black='\e[0;30m'
 blue='\e[0;34m'
 green='\e[0;32m'
@@ -87,14 +85,15 @@ alias raspi5="ssh -Y pi@192.168.1.5"
 alias raspi6="ssh -Y osmc@192.168.0.130"
 alias raspi7="ssh -Y pi@192.168.0.131"
 alias raspi8="ssh -Y pi@192.168.0.111"
-alias server="ssh -Y iainstott@192.168.0.110"
+alias server="ssh -Y iainstott@192.168.0.2"
+alias bladeserver="ssh -Y iainstott@192.168.0.5"
 alias sub="ssh -Y pi@192.168.0.128"
 alias install="sudo apt-get update && sudo apt-get -y install"
 alias install-suggests="sudo apt-get update && sudo apt-get -y install --install-suggests"
 alias upgrade="sudo apt-get update && sudo apt-get -y upgrade"
 alias cleanup="sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get clean && sudo apt-get remove && orphand"
-alias wakeserver="wakeonlan f0:4d:a2:db:e0:d8"
-alias sleepserver="ssh iainstott@192.168.0.110 -t 'sudo poweroff -n'" 
+alias wakebladeserver="wol 00:1a:64:23:e5:32"
+alias sleepbladeserver="ssh iainstott@192.168.0.5 -t 'sudo poweroff -n'" 
 alias reboot="sudo shutdown -r now"
 alias wget="wget -c"
 alias arduino="/opt/arduino-1.6.9/arduino"
