@@ -1,0 +1,17 @@
+2016-11-04 22:07:38 /home/iainstott 5822 iainstott    66  raspi1
+2016-11-04 22:07:45 /home/iainstott 5822 iainstott    67  server
+2016-11-04 22:11:59 /home/iainstott 5822 iainstott    68  raspi1
+2016-11-04 22:12:19 /home/iainstott 5822 iainstott    69  ssh-copy-id iainstott@192.168.0.4
+2016-11-04 22:12:38 /home/iainstott 5822 iainstott    70  raspi1
+2016-11-04 22:12:53 /home/iainstott 5822 iainstott    71  sudo gparted
+2016-11-04 22:13:11 /home/iainstott 6103 iainstott    66  raspi1
+2016-11-04 22:16:35 /home/iainstott 6134 iainstott    66  raspi1
+2016-11-04 22:16:50 /home/iainstott 6155 iainstott 
+2016-11-04 22:17:07 /home/iainstott 6173 iainstott 
+2016-11-04 22:18:56 /home/iainstott 6504 iainstott 
+2016-11-04 22:19:01 /home/iainstott 6504 iainstott     1  cat ./.ssh/id_rsa
+2016-11-04 22:19:15 /home/iainstott 6504 iainstott     2  cat ./.ssh/id_rsa.pub 
+2016-11-04 22:20:37 /home/iainstott 5822 iainstott    72  git config --global-username "elephunk84"
+2016-11-04 22:20:46 /home/iainstott 5822 iainstott    73  git config --global user.name "elephunk84"
+2016-11-04 22:21:04 /home/iainstott 5822 iainstott    74  git config --global user.email "iaincstott@gmail.com"
+2016-11-04 22:21:18 /home/iainstott 5822 iainstott    75  ssh git@github.com

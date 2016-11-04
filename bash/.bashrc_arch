@@ -17,12 +17,12 @@ white='\e[1;37m'
 nc='\e[0m'
 
 # User specific environment and startup programs
-PATH=$PATH:$HOME/.local/.bin:$HOME/.bin
+PATH=$PATH:$HOME/.local/.bin:$HOME/bin
 export PATH
 
 # Eternal History
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo `dt` `pwd` $$ $USER \
-               "$(history 1)" >> ~/.bash_eternal_history'
+               "$(history 1)" >> ~/GitRepo/bin/bash.bash_eternal_history'
 
 # Bash Autocomplete
 bind '"\e[A": history-search-backward' 
@@ -77,20 +77,15 @@ alias mx='chmod a+x'
 alias 000='chmod 000'
 alias 644='chmod 644'
 alias 755='chmod 755'
-alias raspi1="ssh -Y root@192.168.0.4"
+alias raspi1="ssh -Y iainstott@192.168.0.4"
 alias raspi2="ssh -Y osmc@192.168.1.2"
 alias raspi3="ssh -Y pi@192.168.1.3"
 alias raspi4="ssh -Y iainstott@192.168.1.4"
 alias raspi6="ssh -Y osmc@192.168.0.130"
 alias raspi7="ssh -Y pi@192.168.0.131"
-alias raspi8="ssh -Y pi@192.168.0.111"
 alias server="ssh -Y iainstott@192.168.0.2"
 alias bladeserver="ssh -Y iainstott@192.168.0.5"
 alias sub="ssh -Y pi@192.168.0.128"
-alias install="sudo apt-get update && sudo apt-get -y install"
-alias install-suggests="sudo apt-get update && sudo apt-get -y install --install-suggests"
-alias upgrade="sudo apt-get update && sudo apt-get -y upgrade"
-alias cleanup="sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get clean && sudo apt-get remove && orphand"
 alias wakebladeserver="wol 00:1a:64:23:e5:32"
 alias sleepbladeserver="ssh iainstott@192.168.0.5 -t 'sudo poweroff -n'" 
 alias reboot="sudo shutdown -r now"
