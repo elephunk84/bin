@@ -15,3 +15,662 @@
 2016-11-04 22:20:46 /home/iainstott 5822 iainstott    73  git config --global user.name "elephunk84"
 2016-11-04 22:21:04 /home/iainstott 5822 iainstott    74  git config --global user.email "iaincstott@gmail.com"
 2016-11-04 22:21:18 /home/iainstott 5822 iainstott    75  ssh git@github.com
+2016-11-04 22:22:09 /home/iainstott/GitRepo/centralheating 5822 iainstott    76  update-gitrepo 
+2016-11-04 22:22:35 /home/iainstott 7607 iainstott    10  update-gitrepo 
+2016-11-04 22:23:34 /home/iainstott 7629 iainstott    10  update-gitrepo 
+2016-11-04 22:25:15 /home/iainstott 7669 iainstott    11  netmenu 
+2016-11-04 22:25:33 /home/iainstott 7669 iainstott    12  netmenu 
+2016-11-04 22:28:35 /home/iainstott 7669 iainstott    13  netmenu 
+2016-11-04 22:28:45 /home/iainstott 7834 iainstott    16  netmenu 
+2016-11-04 22:31:08 /home/iainstott 7926 iainstott    17  netmenu 
+2016-11-04 22:14:44 /home/iainstott 1433 iainstott    18  sudo mount -a
+2016-11-04 22:26:46 /home/iainstott 2141 iainstott    18  sudo mount -a
+2016-11-04 22:27:22 /home/iainstott 2141 iainstott    19  sudo pacman -Syyu
+2016-11-04 22:29:15 /home/iainstott 2141 iainstott    20  sudo nano /etc/sudoers
+2016-11-04 22:29:21 /home/iainstott 2449 iainstott    20  sudo nano /etc/sudoers
+2016-11-04 22:29:25 /home/iainstott 2449 iainstott    21  sudo pacman -Syyu
+2016-11-04 22:30:21 /home/iainstott 2449 iainstott    22  sudo visudo
+2016-11-04 22:30:37 /home/iainstott 2449 iainstott    23  sudo pacman -S vi
+2016-11-04 22:31:10 /home/iainstott 2449 iainstott    24  sudo visudo
+2016-11-04 22:31:14 /home/iainstott 2449 iainstott    24  sudo visudo
+2016-11-04 22:31:14 /home/iainstott 2449 iainstott    24  sudo visudo
+2016-11-04 22:31:15 /home/iainstott 2449 iainstott    24  sudo visudo
+2016-11-04 22:31:15 /home/iainstott 2449 iainstott    24  sudo visudo
+2016-11-04 22:31:15 /home/iainstott 2449 iainstott    24  sudo visudo
+2016-11-04 22:31:15 /home/iainstott 2449 iainstott    24  sudo visudo
+2016-11-04 22:31:21 /home/iainstott 2581 iainstott    24  sudo visudo
+2016-11-04 22:31:57 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:58 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:58 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:59 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:59 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:59 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:59 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:59 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:59 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:31:59 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:32:00 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:32:00 /home/iainstott 2581 iainstott    25  sudo visudo
+2016-11-04 22:32:08 /home/iainstott 2666 iainstott    25  sudo visudo
+2016-11-04 22:32:46 /home/iainstott 2666 iainstott    26  sudo visudo
+2016-11-04 22:32:49 /home/iainstott 2666 iainstott    27  visudo
+2016-11-04 22:34:14 /home/iainstott 2715 iainstott    28  su
+2016-11-04 22:35:01 /home/iainstott 2715 iainstott    29  sudo visudo
+2016-11-04 22:35:11 /home/iainstott 2715 iainstott    30  sudo visudo
+2016-11-04 22:35:51 /home/iainstott 2715 iainstott    31  sudo pacman -Syyu
+2016-11-04 22:36:47 /home/iainstott 3046 iainstott    28  su
+2016-11-04 22:37:52 /home/iainstott 3067 iainstott    31  sudo pacman -Syyu
+2016-11-04 22:38:14 /home/iainstott 3067 iainstott    32  sudo pacman -S arduino
+2016-11-04 22:50:05 /home/iainstott 3470 iainstott    32  sudo pacman -S arduino
+2016-11-04 22:50:28 /home/iainstott 3491 iainstott    32  sudo pacman -S arduino
+2016-11-04 22:50:35 /home/iainstott/GitRepo/Heating 3491 iainstott    33  cd GitRepo/Heating/
+2016-11-04 22:56:36 /home/iainstott/GitRepo/Heating 3491 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:02:03 /home/iainstott 3734 iainstott    32  sudo pacman -S arduino
+2016-11-04 23:11:41 /home/iainstott 4246 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:15:59 /home/iainstott 4445 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:16:04 /home/iainstott 4464 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:16:35 /home/iainstott 4494 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:16:52 /home/iainstott 4513 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:17:22 /home/iainstott 4538 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:41:48 /home/iainstott 5614 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:46:23 /home/iainstott 5934 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:47:20 /home/iainstott 5966 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:49:23 /home/iainstott 6106 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:49:31 /home/iainstott 6106 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:49:36 /home/iainstott 6106 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:49:44 /home/iainstott 6106 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:49:54 /home/iainstott 6143 iainstott    34  sudo pacsearch remmina
+2016-11-04 23:51:02 /home/iainstott 6143 iainstott    35  sudo pacman -S pacmatic pactoys srcpac
+2016-11-04 23:51:42 /home/iainstott 6143 iainstott    36  sudo pacman -S pacmatic srcpac
+2016-11-04 23:58:21 /home/iainstott 6143 iainstott    37  crontab -e
+2016-11-05 19:41:14 /home/iainstott 18169 iainstott    37  crontab -e
+2016-11-05 19:41:25 /home/iainstott 18186 iainstott    37  crontab -e
+2016-11-05 19:45:14 /home/iainstott 18394 iainstott    37  crontab -e
+2016-11-05 19:45:20 /home/iainstott 18412 iainstott    37  crontab -e
+2016-11-05 19:53:00 /home/iainstott 18566 iainstott    37  crontab -e
+2016-11-05 19:53:51 /home/iainstott 18600 iainstott    37  crontab -e
+2016-11-05 19:54:32 /home/iainstott 18633 iainstott    37  crontab -e
+2016-11-05 20:25:55 /home/iainstott 20058 iainstott    37  crontab -e
+2016-11-05 20:25:57 /home/iainstott/Downloads 20058 iainstott    38  cd Downloads/
+2016-11-05 20:25:58 /home/iainstott/Downloads 20058 iainstott    39  ls
+2016-11-05 20:26:05 /home/iainstott/Downloads 20058 iainstott    40  unzip epson-inkjet-printer-escpr-1.6.9-1lsb3.2.tar.gz 
+2016-11-05 20:26:17 /home/iainstott/Downloads 20058 iainstott    41  extract epson-inkjet-printer-escpr-1.6.9-1lsb3.2.tar.gz 
+2016-11-05 20:26:21 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    42  cd epson-inkjet-printer-escpr-1.6.9
+2016-11-05 20:26:22 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    43  ls
+2016-11-05 20:26:44 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    44  sudo install-sh 
+2016-11-05 20:26:49 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    45  sudo ./install-sh 
+2016-11-05 20:27:17 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    46  nano README
+2016-11-05 20:34:12 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    47  sudo pacman -S abs
+2016-11-05 20:36:10 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    48  ls
+2016-11-05 20:36:26 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    49  ./configure
+2016-11-05 20:36:39 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    50  make
+2016-11-05 20:36:45 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    51  sudo make install
+2016-11-05 20:48:09 /home/iainstott/Downloads/epson-inkjet-printer-escpr-1.6.9 20058 iainstott    52  make install
+2016-11-05 20:49:52 /home/iainstott 24626 iainstott    37  crontab -e
+2016-11-05 20:49:59 /home/iainstott/GitRepo/Scripts 24626 iainstott    38  cd GitRepo/Scripts/
+2016-11-05 20:50:14 /home/iainstott/GitRepo/Scripts 24626 iainstott    39  touch localMeny
+2016-11-05 20:50:23 /home/iainstott/GitRepo/Scripts 24626 iainstott    40  mv localMeny localMenu
+2016-11-05 20:51:36 /home/iainstott 24664 iainstott    37  crontab -e
+2016-11-05 21:05:27 /home/iainstott 25042 iainstott    52  make install
+2016-11-05 21:05:49 /home/iainstott 25042 iainstott    53  sudo pacman -S cups-filters
+2016-11-05 21:09:43 /home/iainstott 25367 iainstott    53  sudo pacman -S cups-filters
+2016-11-05 21:12:13 /home/iainstott 25367 iainstott    54  sudo pacman -S --needed base-devel
+2016-11-05 21:15:35 /home/iainstott 25367 iainstott    55  git clone https://aur.archlinux.org/epson-inkjet-printer-escpr.git
+2016-11-05 21:15:56 /home/iainstott 25367 iainstott    56  tar -xf
+2016-11-05 21:16:00 /home/iainstott/epson-inkjet-printer-escpr 25367 iainstott    57  cd epson-inkjet-printer-escpr/
+2016-11-05 21:16:19 /home/iainstott/epson-inkjet-printer-escpr 25367 iainstott    58  less PKGBUILD 
+2016-11-05 21:18:03 /home/iainstott/epson-inkjet-printer-escpr 25367 iainstott    59  makepkg -sirc
+2016-11-05 21:18:32 /home/iainstott 30549 iainstott    53  sudo pacman -S cups-filters
+2016-11-05 21:18:48 /home/iainstott 30549 iainstott    54  sudo pacman -S deluge
+2016-11-05 21:19:56 /home/iainstott/epson-inkjet-printer-escpr 25367 iainstott    60  sudo pacman -S wine-cfg
+2016-11-05 21:19:59 /home/iainstott/epson-inkjet-printer-escpr 25367 iainstott    61  sudo pacman -S winecfg
+2016-11-05 21:20:31 /home/iainstott/epson-inkjet-printer-escpr 25367 iainstott    62  winecfg
+2016-11-05 21:25:21 /home/iainstott/GitRepo/Scripts 24626 iainstott    41  sudo pacman -S zenity
+2016-11-05 21:26:53 /home/iainstott 31100 iainstott    54  sudo pacman -S deluge
+2016-11-05 21:27:07 /home/iainstott 31112 iainstott    54  sudo pacman -S deluge
+2016-11-05 21:33:29 /home/iainstott 31486 iainstott    63  winecfg
+2016-11-05 21:37:37 /home/iainstott 31577 iainstott    63  winecfg
+2016-11-05 21:38:14 /home/iainstott 31602 iainstott    63  winecfg
+2016-11-05 21:38:46 /home/iainstott 31640 iainstott    63  winecfg
+2016-11-05 21:41:18 /home/iainstott 31686 iainstott    63  winecfg
+2016-11-05 21:41:22 /home/iainstott 31705 iainstott    63  winecfg
+2016-11-05 21:41:36 /home/iainstott 31724 iainstott    63  winecfg
+2016-11-05 21:42:13 /home/iainstott 31747 iainstott    63  winecfg
+2016-11-05 21:44:00 /home/iainstott 31907 iainstott    63  winecfg
+2016-11-05 21:46:48 /home/iainstott 31948 iainstott    63  winecfg
+2016-11-05 21:46:53 /home/iainstott 31967 iainstott    63  winecfg
+2016-11-05 21:47:56 /home/iainstott 32000 iainstott    63  winecfg
+2016-11-05 21:48:32 /home/iainstott 32030 iainstott    63  winecfg
+2016-11-05 21:49:04 /home/iainstott 32058 iainstott    63  winecfg
+2016-11-05 21:49:26 /home/iainstott 32082 iainstott    63  winecfg
+2016-11-05 21:49:33 /home/iainstott 32082 iainstott    64  killall terminator
+2016-11-05 21:49:35 /home/iainstott 32106 iainstott    63  winecfg
+2016-11-05 21:50:09 /home/iainstott 32130 iainstott    63  winecfg
+2016-11-05 21:53:06 /home/iainstott 32188 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 21:53:48 /home/iainstott 32216 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 21:56:24 /home/iainstott 32303 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 21:56:56 /home/iainstott 32326 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 21:57:05 /home/iainstott 32345 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 21:57:48 /home/iainstott 32373 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 21:59:01 /home/iainstott 32418 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 22:01:22 /home/iainstott 32531 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 22:04:23 /home/iainstott 32628 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 22:05:03 /home/iainstott 32672 iainstott    64  ssh iainstott@192.168.0.2 sh ~/GitRepo/Scripts/Menu
+2016-11-05 22:05:17 /home/iainstott 32672 iainstott    65  sh ~/GitRepo/Scripts/localMenu 
+2016-11-05 22:06:34 /home/iainstott 32672 iainstott    66  sh ~/GitRepo/Scripts/localMenu 
+2016-11-05 22:22:13 /home/iainstott 444 iainstott    66  sh ~/GitRepo/Scripts/localMenu 
+2016-11-05 22:31:23 /home/iainstott 803 iainstott    66  sh ~/GitRepo/Scripts/localMenu 
+2016-11-05 22:31:28 /home/iainstott 803 iainstott    67  killall kodi
+2016-11-05 22:32:24 /home/iainstott 856 iainstott    67  killall kodi
+2016-11-05 22:32:25 /home/iainstott 856 iainstott    68  killall kodi
+2016-11-05 22:32:33 /home/iainstott 856 iainstott    69  killall kodi-standalone
+2016-11-05 22:36:25 /home/iainstott 1472 iainstott    69  killall kodi-standalone
+2016-11-05 22:36:27 /home/iainstott 1492 iainstott    69  killall kodi-standalone
+2016-11-05 22:37:51 /home/iainstott 1492 iainstott    70  sudo nano /etc/pacman.conf 
+2016-11-05 22:42:55 /home/iainstott 1920 iainstott    69  killall kodi-standalone
+2016-11-05 23:13:27 /home/iainstott 1162 iainstott    70  sudo nano /etc/pacman.conf 
+2016-11-05 23:41:45 /home/iainstott 1581 iainstott    70  sudo nano /etc/pacman.conf 
+2016-11-05 23:41:47 /home/iainstott 1600 iainstott    70  sudo nano /etc/pacman.conf 
+2016-11-05 23:42:18 /home/iainstott 1600 iainstott    71  ~/GitRepo/Scripts/localMenu 
+2016-11-05 23:45:28 /home/iainstott 1650 iainstott    71  ~/GitRepo/Scripts/localMenu 
+2016-11-05 23:45:37 /home/iainstott 1650 iainstott    72  ~/GitRepo/Scripts/localMenu 
+2016-11-05 23:48:20 /home/iainstott 1650 iainstott    73  ~/GitRepo/Scripts/localMenu 
+2016-11-05 23:57:02 /home/iainstott 1650 iainstott    74  ~/GitRepo/Scripts/localMenu 
+2016-11-05 23:57:21 /home/iainstott 2082 iainstott    71  ~/GitRepo/Scripts/localMenu 
+2016-11-05 23:57:22 /home/iainstott 2082 iainstott    72  ~/GitRepo/Scripts/localMenu 
+2016-11-06 00:06:41 /home/iainstott 6945 iainstott    72  ~/GitRepo/Scripts/localMenu 
+2016-11-06 00:08:00 /home/iainstott 6945 iainstott    73  ~/GitRepo/Scripts/localMenu 
+2016-11-06 00:20:52 /home/iainstott 7186 iainstott    73  ~/GitRepo/Scripts/localMenu 
+2016-11-06 00:21:12 /home/iainstott 7186 iainstott    74  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 00:21:29 /home/iainstott 7186 iainstott    75  KODI_Backup 
+2016-11-06 00:22:05 /home/iainstott 7186 iainstott    76  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 00:22:07 /home/iainstott 7186 iainstott    77  KODI_Backup 
+2016-11-06 00:23:56 /home/iainstott 7186 iainstott    78  KODI_Backup 
+2016-11-06 00:23:59 /home/iainstott 7186 iainstott    79  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 00:32:18 /home/iainstott 7186 iainstott    80  KODI_Backup 
+2016-11-06 00:46:01 /home/iainstott 1263 iainstott    80  KODI_Backup 
+2016-11-06 01:02:39 /home/iainstott 2010 iainstott    80  KODI_Backup 
+2016-11-06 01:02:39 /home/iainstott 2011 iainstott    80  KODI_Backup 
+2016-11-06 01:03:00 /home/iainstott 2011 iainstott    81  notify-send "Bollocks"
+2016-11-06 01:03:08 /home/iainstott 2011 iainstott    82  notify-send --info "Bollocks"
+2016-11-06 01:03:15 /home/iainstott 2011 iainstott    83  notify-send -help
+2016-11-06 01:03:18 /home/iainstott 2011 iainstott    84  notify-send -h
+2016-11-06 01:03:22 /home/iainstott 2011 iainstott    85  notify-send ?
+2016-11-06 02:00:21 /home/iainstott 2889 iainstott    85  notify-send ?
+2016-11-06 02:00:31 /home/iainstott 2889 iainstott    86  find ${kodiArchive} -mindepth 1 -maxdepth 1  -name "*.tgz" | xargs -0 zenity --list --height=400 --width=600 --title="Drive to Install To" --text="Choose a drive" --radiolist --multiple --column ' ' --column 'Devices'
+2016-11-06 02:00:50 /home/iainstott 2889 iainstott    87  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:00:56 /home/iainstott 2889 iainstott    88  find ${kodiArchive} -mindepth 1 -maxdepth 1  -name "*.tgz" | xargs -0 zenity --list --height=400 --width=600 --title="Drive to Install To" --text="Choose a drive" --radiolist --multiple --column ' ' --column 'Devices'
+2016-11-06 02:02:21 /home/iainstott 2889 iainstott    89  find /home/iainstot/Kodi/backupFolder/BuildArchive -mindepth 1 -maxdepth 1  -name "*.tgz" | xargs -0 zenity --list --height=400 --width=600 --title="Drive to Install To" --text="Choose a drive" --radiolist --multiple --column ' ' --column 'Devices'
+2016-11-06 02:02:47 /home/iainstott 2889 iainstott    90  find /home/iainstot/Kodi/backupFolder/BuildArchive -mindepth 1 -maxdepth 1  -name "*.tgz" 
+2016-11-06 02:03:20 /home/iainstott 2889 iainstott    91  find /home/iainstot/Kodi/backupFolder/BuildArchive -mindepth 1 -maxdepth 1  -name "*.tgz" | xargs -0 zenity --list --height=400 --width=600 --title="Drive to Install To" --text="Choose a drive" --radiolist --multiple --column ' ' --column 'Devices'
+2016-11-06 02:03:34 /home/iainstott 2889 iainstott    92  find /home/iainstott/Kodi/backupFolder/BuildArchive -mindepth 1 -maxdepth 1  -name "*.tgz" | xargs -0 zenity --list --height=400 --width=600 --title="Drive to Install To" --text="Choose a drive" --radiolist --multiple --column ' ' --column 'Devices'
+2016-11-06 02:03:48 /home/iainstott 2889 iainstott    93  find /home/iainstott/Kodi/backupFolder/BuildArchive -mindepth 1 -maxdepth 1  -name "*.tgz" 
+2016-11-06 02:04:07 /home/iainstott 2889 iainstott    94  find /home/iainstott/Kodi/backupFolder/BuildArchive -mindepth 1 -maxdepth 1  -name "*.tgz" | xargs -0 zenity --list --height=400 --width=600 --title="Drive to Install To" --text="Choose a drive" --radiolist --multiple --column ' ' --column 'Devices'
+2016-11-06 02:05:11 /home/iainstott 2889 iainstott    95  find /home/iainstott/Kodi/backupFolder/BuildArchive -mindepth 1 -maxdepth 1  -name "*.tgz" | sort | awk '{ printf "FALSE""\0"$0"\0" }' | xargs -0 zenity --list --height=400 --width=600 --title="Drive to Install To" --text="Choose a drive" --radiolist --multiple --column ' ' --column 'Devices'
+2016-11-06 02:09:52 /home/iainstott 3140 iainstott    95  find /home/iainstott/Kodi/backupFolder/BuildArchive -mindepth 1 -maxdepth 1  -name "*.tgz" | sort | awk '{ printf "FALSE""\0"$0"\0" }' | xargs -0 zenity --list --height=400 --width=600 --title="Drive to Install To" --text="Choose a drive" --radiolist --multiple --column ' ' --column 'Devices'
+2016-11-06 02:10:23 /home/iainstott 3140 iainstott    96  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:10:47 /home/iainstott 3140 iainstott    97  KODI_RestoreBUILD 
+2016-11-06 02:13:12 /home/iainstott 3140 iainstott    98  KODI_Backup 
+2016-11-06 02:14:31 /home/iainstott 3140 iainstott    99  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:14:37 /home/iainstott 3140 iainstott   100  KODI_Backup 
+2016-11-06 02:17:19 /home/iainstott 3410 iainstott   100  KODI_Backup 
+2016-11-06 02:17:20 /home/iainstott 3410 iainstott   101  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:17:26 /home/iainstott 3410 iainstott   102  KODI_Backup 
+2016-11-06 02:17:49 /home/iainstott 3410 iainstott   103  KODI_Backup 
+2016-11-06 02:17:51 /home/iainstott 3410 iainstott   104  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:17:56 /home/iainstott/Kodi/currentBuild 3410 iainstott   105  KODI_Backup 
+2016-11-06 02:19:38 /home/iainstott/Kodi/currentBuild 3410 iainstott   106  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:19:48 /home/iainstott 3410 iainstott   107  cd
+2016-11-06 02:19:51 /home/iainstott 3410 iainstott   108  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:19:59 /home/iainstott/Kodi/currentBuild 3410 iainstott   109  KODI_Backup 
+2016-11-06 02:21:18 /home/iainstott 3573 iainstott   109  KODI_Backup 
+2016-11-06 02:21:19 /home/iainstott 3573 iainstott   110  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:21:25 /home/iainstott/Kodi/currentBuild 3573 iainstott   111  KODI_Backup 
+2016-11-06 02:22:46 /home/iainstott/Kodi/currentBuild 3573 iainstott   112  KODI_Backup 
+2016-11-06 02:23:28 /home/iainstott/Kodi/currentBuild 3573 iainstott   113  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:23:33 /home/iainstott 3573 iainstott   114  cd
+2016-11-06 02:23:34 /home/iainstott 3573 iainstott   115  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:23:41 /home/iainstott/Kodi/currentBuild 3573 iainstott   116  KODI_Backup 
+2016-11-06 02:24:49 /home/iainstott/Kodi/currentBuild 3573 iainstott   117  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:24:51 /home/iainstott 3573 iainstott   118  cd
+2016-11-06 02:24:52 /home/iainstott 3573 iainstott   119  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 02:25:00 /home/iainstott 3573 iainstott   120  KODI_Backup 
+2016-11-06 11:49:11 /home/iainstott 4512 iainstott   120  KODI_Backup 
+2016-11-06 11:49:13 /home/iainstott 4512 iainstott   121  . ./GitRepo/Scripts/lib/bash/kodiScripts
+2016-11-06 11:49:19 /home/iainstott 4512 iainstott   122  KODI_Backup 
+2016-11-06 13:22:35 /home/iainstott 5566 iainstott   120  KODI_Backup 
+2016-11-06 13:58:39 /home/iainstott 5566 iainstott   121  raspi2
+2016-11-06 14:50:57 /home/iainstott 8999 iainstott   123  KODI_Backup 
+2016-11-06 14:51:02 /home/iainstott 8999 iainstott   124  killall kodi
+2016-11-06 14:51:06 /home/iainstott 8999 iainstott   125  killall kodi-bin
+2016-11-06 14:51:44 /home/iainstott 8999 iainstott   126  top
+2016-11-06 14:51:48 /home/iainstott 8999 iainstott   127  killall kodi.bin
+2016-11-06 15:02:24 /home/iainstott 10414 iainstott   127  killall kodi.bin
+2016-11-06 15:19:23 /home/iainstott 10772 iainstott   127  killall kodi.bin
+2016-11-06 15:19:46 /home/iainstott 10772 iainstott   128  sh GitRepo/Scripts/localMenu 
+2016-11-06 15:21:18 /home/iainstott 10772 iainstott   129  sh GitRepo/Scripts/localMenu 
+2016-11-06 15:21:58 /home/iainstott 10772 iainstott   130  sh GitRepo/Scripts/localMenu 
+2016-11-06 17:28:38 /home/iainstott 13578 iainstott   130  sh GitRepo/Scripts/localMenu 
+2016-11-06 17:29:01 /home/iainstott 13578 iainstott   131  sh GitRepo/Scripts/localMenu 
+2016-11-06 17:33:08 /home/iainstott 13642 iainstott   130  sh GitRepo/Scripts/localMenu 
+2016-11-06 17:33:31 /home/iainstott 13642 iainstott   131  sh GitRepo/Scripts/localMenu 
+2016-11-06 17:35:17 /home/iainstott 13642 iainstott   132  sh GitRepo/Scripts/localMenu 
+2016-11-06 20:49:27 /home/iainstott 18826 iainstott   131  sh GitRepo/Scripts/localMenu 
+2016-11-06 20:56:27 /home/iainstott 18826 iainstott   132  server
+2016-11-06 21:01:13 /home/iainstott 18826 iainstott   133  server
+2016-11-06 21:01:44 /home/iainstott 18826 iainstott   134  ping 192.168.0.3
+2016-11-06 21:05:20 /home/iainstott 1175 iainstott   136  ping 192.168.0.3
+2016-11-06 21:05:23 /home/iainstott 1197 iainstott   136  ping 192.168.0.3
+2016-11-06 21:05:27 /home/iainstott 1197 iainstott   137  arp -a
+2016-11-06 21:07:18 /home/iainstott 1197 iainstott   138  ping 192.168.0.3
+2016-11-06 21:07:49 /home/iainstott 1197 iainstott   139  server
+2016-11-06 21:13:00 /home/iainstott 1175 iainstott   137  server nano /etc/htt
+2016-11-06 21:13:05 /home/iainstott 1175 iainstott   138  servr
+2016-11-06 21:26:00 /home/iainstott 1175 iainstott   139  server
+2016-11-06 21:31:16 /home/iainstott 1197 iainstott   140  server
+2016-11-06 21:31:32 /home/iainstott 1197 iainstott   141  raspi4
+2016-11-06 21:32:52 /home/iainstott 1197 iainstott   142  raspi4
+2016-11-06 21:43:07 /home/iainstott 1197 iainstott   143  server
+2016-11-06 21:43:07 /home/iainstott 1175 iainstott   140  server
+2016-11-06 23:05:43 /home/iainstott 1175 iainstott   141  server
+2016-11-07 18:41:10 /home/iainstott 1175 iainstott   142  raspi3
+2016-11-09 17:55:10 /home/iainstott 4123 iainstott   149  raspi3
+2016-11-09 17:55:17 /home/iainstott 4142 iainstott   149  raspi3
+2016-11-09 17:55:29 /home/iainstott 4142 iainstott   150  raspi2
+2016-11-10 12:51:59 /home/iainstott 4142 iainstott   151  raspi2
+2016-11-10 13:34:42 /home/iainstott 4142 iainstott   152  raspi2
+2016-11-10 13:35:23 /home/iainstott 4142 iainstott   153  sudo pacman -S kodi-tvheadend-pvr
+2016-11-10 20:49:46 /home/iainstott 15067 iainstott   149  raspi3
+2016-11-10 20:49:59 /home/iainstott 15067 iainstott   150  raspi2
+2016-11-10 20:49:59 /home/iainstott 4142 iainstott   154  raspi2
+2016-11-10 20:50:09 /home/iainstott 15067 iainstott   151  raspi3
+2016-11-10 20:50:17 /home/iainstott 15067 iainstott   152  raspi4
+2016-11-10 21:05:26 /home/iainstott 1125 iainstott   154  raspi2
+2016-11-10 21:05:43 /home/iainstott 1151 iainstott   154  raspi2
+2016-11-10 21:07:33 /home/iainstott 1151 iainstott   155  raspi2
+2016-11-10 21:08:43 /home/iainstott 1151 iainstott   156  raspi4
+2016-11-10 21:09:22 /home/iainstott 1151 iainstott   157  raspi6
+2016-11-10 21:11:51 /home/iainstott 1151 iainstott   158  raspi2
+2016-11-10 21:12:21 /home/iainstott 1151 iainstott   159  raspi4
+2016-11-10 21:12:54 /home/iainstott 1151 iainstott   160  raspi3
+2016-11-10 21:41:01 /home/iainstott 1226 iainstott   154  raspi2
+2016-11-10 21:59:43 /home/iainstott 1226 iainstott   155  raspi4
+2016-11-10 21:59:48 /home/iainstott 1226 iainstott   156  raspi4
+2016-11-10 22:28:18 /home/iainstott 3602 iainstott   157  raspi4
+2016-11-10 22:28:40 /home/iainstott 3602 iainstott   158  raspi2
+2016-11-10 22:28:51 /home/iainstott 3602 iainstott   159  raspi4
+2016-11-10 22:51:07 /home/iainstott 4175 iainstott   157  raspi4
+2016-11-10 23:11:13 /home/iainstott 1162 iainstott   157  raspi4
+2016-11-11 19:35:41 /home/iainstott 2192 iainstott   162  sudo mount -a
+2016-11-11 19:35:57 /home/iainstott 2192 iainstott   163  raspi4
+2016-11-11 22:33:40 /home/iainstott 2192 iainstott   164  raspi1
+2016-11-11 22:35:05 /home/iainstott 3391 iainstott   163  sudo mount -a
+2016-11-11 23:11:27 /home/iainstott 1344 iainstott   163  ssh root@192.168.0.4
+2016-11-13 15:34:12 /home/iainstott 3165 iainstott   175  ssh iainstott@192.168.0.4
+2016-11-13 15:36:33 /home/iainstott 3165 iainstott   176  raspi2
+2016-11-14 00:18:35 /home/iainstott 1158 iainstott   175  ssh iainstott@192.168.0.4
+2016-11-14 00:18:52 /home/iainstott 1158 iainstott   176  raspi4
+2016-11-14 00:19:05 /home/iainstott 1158 iainstott   177  raspi2
+2016-11-14 11:36:00 /home/iainstott 1158 iainstott   178  raspi2
+2016-11-14 11:36:33 /home/iainstott 1158 iainstott   179  raspi4
+2016-11-14 11:36:39 /home/iainstott 1158 iainstott   180  server
+2016-11-14 14:22:45 /home/iainstott 1158 iainstott   181  server
+2016-11-14 15:22:13 /home/iainstott 1158 iainstott   182  server
+2016-11-14 15:22:25 /home/iainstott 1158 iainstott   183  ssh iainstott@192.168.0.3
+2016-11-14 15:41:18 /home/iainstott 1158 iainstott   184  server
+2016-11-14 16:49:52 /home/iainstott 1158 iainstott   185  server
+2016-11-14 16:49:59 /home/iainstott 1158 iainstott   186  ssh iainstott@192.168.0.3
+2016-11-14 17:28:54 /home/iainstott 22126 iainstott   175  ssh iainstott@192.168.0.4
+2016-11-15 10:13:30 /home/iainstott 2437 iainstott   175  ssh iainstott@192.168.0.4
+2016-11-15 10:14:26 /home/iainstott 2652 iainstott   175  ssh iainstott@192.168.0.4
+2016-11-15 10:25:07 /home/iainstott 2437 iainstott   176  server
+2016-11-15 10:26:09 /home/iainstott 2437 iainstott   177  raspi4
+2016-11-15 10:27:31 /home/iainstott 2437 iainstott   178  raspi6
+2016-11-15 10:27:39 /home/iainstott 2437 iainstott   179  sudo blkid
+2016-11-15 10:33:07 /home/iainstott 2437 iainstott   180  sudo dd if=/home/iainstott/Downloads/2016-09-23-raspbian-jessie.img of=/dev/sdb bs=1M
+2016-11-15 10:50:58 /home/iainstott 2437 iainstott   181  ssh-copy-id pi@192.168.1.2
+2016-11-15 10:51:17 /home/iainstott 2437 iainstott   182  nano ~/.ssh/known_hosts 
+2016-11-15 10:51:27 /home/iainstott 2437 iainstott   183  ssh-copy-id pi@192.168.1.2
+2016-11-15 10:51:51 /home/iainstott 2437 iainstott   184  raspi2
+2016-11-15 10:52:29 /home/iainstott 3599 iainstott   184  raspi2
+2016-11-15 10:52:35 /home/iainstott 3599 iainstott   185  raspi2
+2016-11-15 10:52:55 /home/iainstott 3637 iainstott   184  raspi2
+2016-11-15 10:53:08 /home/iainstott 3655 iainstott   184  raspi2
+2016-11-15 10:53:12 /home/iainstott 3672 iainstott   184  raspi2
+2016-11-15 10:53:33 /home/iainstott 3696 iainstott   185  raspi2
+2016-11-15 11:00:29 /home/iainstott 3932 iainstott   185  raspi2
+2016-11-15 11:43:46 /home/iainstott 3696 iainstott   186  raspi2
+2016-11-15 11:43:46 /home/iainstott 3932 iainstott   186  raspi2
+2016-11-15 12:30:56 /home/iainstott 3696 iainstott   187  raspi2
+2016-11-15 16:31:37 /home/iainstott 3932 iainstott   187  server
+2016-11-15 16:31:52 /home/iainstott 3932 iainstott   188  server
+2016-11-15 16:32:45 /home/iainstott 3932 iainstott   189  ssh iainstott@192.168.0.3
+2016-11-15 16:32:49 /home/iainstott 3932 iainstott   190  server
+2016-11-15 16:32:54 /home/iainstott 3932 iainstott   191  ssh iainstott@192.168.0.3
+2016-11-15 16:35:56 /home/iainstott 3932 iainstott   192  ssh iainstott@192.168.0.3
+2016-11-15 16:36:04 /home/iainstott 3932 iainstott   193  server
+2016-11-15 18:22:09 /home/iainstott 3932 iainstott   194  server
+2016-11-15 19:21:57 /home/iainstott 3696 iainstott   188  raspi2
+2016-11-15 19:22:38 /home/iainstott 3696 iainstott   189  raspi2
+2016-11-15 19:33:32 /home/iainstott 3932 iainstott   195  server
+2016-11-15 19:36:19 /home/iainstott 3932 iainstott   196  raspi
+2016-11-15 19:36:39 /home/iainstott 3696 iainstott   190  raspi2
+2016-11-15 19:36:39 /home/iainstott 3932 iainstott   197  raspi2
+2016-11-15 19:48:27 /home/iainstott 3932 iainstott   198  raspi2
+2016-11-15 19:48:27 /home/iainstott 3696 iainstott   191  raspi2
+2016-11-15 20:08:29 /home/iainstott 3696 iainstott   192  sudo yum install osmc-installer
+2016-11-15 20:08:43 /home/iainstott 3696 iainstott   193  sudo pacman -S osmc-installer
+2016-11-15 20:09:58 /home/iainstott 3696 iainstott   194  sudo pacman -S osmc-installer-bin
+2016-11-15 20:25:50 /home/iainstott 3696 iainstott   195  sudo blkid
+2016-11-15 20:26:26 /home/iainstott 3696 iainstott   196  sudo dd if=/home/iainstott/Downloads/OSMC_TGT_rbp2_20161031.img of=/dev/sdb bs=1M
+2016-11-15 20:26:38 /home/iainstott 3696 iainstott   197  sudo dd if=/home/iainstott/Downloads/OSMC_TGT_rbp2_20161031.img of=/dev/sdb bs=1M
+2016-11-15 20:26:40 /home/iainstott 3696 iainstott   198  sudo dd if=/home/iainstott/Downloads/OSMC_TGT_rbp2_20161031.img of=/dev/sdb bs=1M
+2016-11-15 20:28:07 /home/iainstott 3696 iainstott   199  sudo dd if=/home/iainstott/Downloads/OSMC_TGT_rbp2_20161031.img of=/dev/sdb bs=1M
+2016-11-15 20:28:49 /home/iainstott 3696 iainstott   200  sudo dd if=/home/iainstott/Downloads/OSMC_TGT_rbp2_20161031.img of=/dev/sdb bs=1M
+2016-11-15 20:41:05 /home/iainstott 3932 iainstott   199  raspi2
+2016-11-15 20:46:19 /home/iainstott 3696 iainstott   201  raspi2
+2016-11-15 20:47:52 /home/iainstott 3696 iainstott   202  ssh osmc@192.168.1.2
+2016-11-15 20:48:49 /home/iainstott 1144 iainstott   217  sudo reboot
+2016-11-15 20:51:04 /home/iainstott 1144 iainstott   218  ssh osmc@192.168.1.2
+2016-11-15 20:54:07 /home/iainstott 1144 iainstott   219  ssh osmc@192.168.1.2
+2016-11-15 20:54:24 /home/iainstott 1144 iainstott   220  nano ./.ssh/known_hosts 
+2016-11-15 20:55:28 /home/iainstott 1144 iainstott   221  ssh osmc@192.168.1.2
+2016-11-15 21:10:18 /home/iainstott 1144 iainstott   222  server
+2016-11-15 21:12:23 /home/iainstott 1144 iainstott   223  raspi1
+2016-11-15 21:12:32 /home/iainstott 1144 iainstott   224  raspi4
+2016-11-15 21:12:41 /home/iainstott 1144 iainstott   225  raspi2
+2016-11-15 21:27:58 /home/iainstott 1144 iainstott   226  raspi1
+2016-11-15 21:29:34 /home/iainstott 1144 iainstott   227  server
+2016-11-15 22:54:48 /home/iainstott 2813 iainstott   217  sudo reboot
+2016-11-15 22:57:06 /home/iainstott 2813 iainstott   218  raspi2
+2016-11-15 23:13:09 /home/iainstott 3224 iainstott   217  sudo reboot
+2016-11-15 23:30:11 /home/iainstott 1221 iainstott   229  raspi1
+2016-11-15 23:34:09 /home/iainstott 1659 iainstott   231  sudo mount -a
+2016-11-15 23:34:14 /home/iainstott 1659 iainstott   232  raspi1
+2016-11-15 23:35:08 /home/iainstott 1659 iainstott   233  raspi2
+2016-11-15 23:35:21 /home/iainstott 1659 iainstott   234  sudo pacman -s conky
+2016-11-15 23:35:32 /home/iainstott 1659 iainstott   235  sudo pacman -S conky
+2016-11-15 23:35:38 /home/iainstott 1659 iainstott   236  sudo pacman -S conky*
+2016-11-15 23:35:47 /home/iainstott 1659 iainstott   237  sudo pacman -S conky
+2016-11-15 23:35:55 /home/iainstott 1659 iainstott   238  sudo pacman -S conky-manager
+2016-11-15 23:37:15 /home/iainstott 2115 iainstott   231  sudo mount -a
+2016-11-15 23:48:15 /home/iainstott 3380 iainstott   238  sudo pacman -S conky-manager
+2016-11-15 23:49:01 /home/iainstott 3401 iainstott   238  sudo pacman -S conky-manager
+2016-11-15 23:56:17 /home/iainstott 3937 iainstott   238  sudo pacman -S conky-manager
+2016-11-16 00:33:14 /home/iainstott 4912 iainstott   238  sudo pacman -S conky-manager
+2016-11-16 11:10:01 /home/iainstott 6840 iainstott   239  raspi4
+2016-11-16 11:12:24 /home/iainstott 6840 iainstott   240  ssh osmc@192.168.1.2
+2016-11-16 13:26:51 /home/iainstott 6840 iainstott   241  ssh osmc@192.168.1.2
+2016-11-16 15:34:18 /home/iainstott 9043 iainstott   239  raspi4
+2016-11-16 15:43:25 /home/iainstott 1162 iainstott   239  raspi4
+2016-11-16 15:43:42 /home/iainstott 1162 iainstott   240  raspi2
+2016-11-16 15:44:30 /home/iainstott 1162 iainstott   241  ssh osmc@192.168.1.2
+2016-11-19 10:16:52 /home/iainstott 21084 iainstott   241  ssh osmc@192.168.1.2
+2016-11-19 10:17:09 /home/iainstott 21084 iainstott   242  sudo gedit /usr/share/X11/xorg.conf.d/60-synaptics-options.conf 
+2016-11-19 10:17:22 /home/iainstott 21084 iainstott   243  sudo nano /usr/share/X11/xorg.conf.d/60-synaptics-options.conf 
+2016-11-19 10:17:45 /home/iainstott 21084 iainstott   244  sudo nano /etc/X11/xorg.conf.d/10-synaptics.conf
+2016-11-19 10:18:43 /home/iainstott 21084 iainstott   245  sudo nano /etc/X11/xorg.conf.d/70-synaptics.conf
+2016-11-19 10:19:02 /home/iainstott 21084 iainstott   246  sudo pacman -S synclient
+2016-11-19 10:21:52 /home/iainstott 21084 iainstott   247  cat /etc/X11/xorg.conf.d/10-synaptics.conf 
+2016-11-19 10:23:10 /home/iainstott 21084 iainstott   248  sudo nano /etc/X11/xorg.conf.d/10-synaptics.conf
+2016-11-19 10:24:08 /home/iainstott 1148 iainstott   249  sudo reboot
+2016-11-19 10:24:18 /home/iainstott 1148 iainstott   250  sudo nano /etc/X11/xorg.conf.d/10-synaptics.conf
+2016-11-19 10:24:23 /home/iainstott 1148 iainstott   251  sudo nano /etc/X11/xorg.conf.d/10-synaptics.conf
+2016-11-20 11:43:45 /home/iainstott 14975 iainstott   252  sudo reboot
+2016-11-20 11:56:37 /home/iainstott 15561 iainstott   252  sudo reboot
+2016-11-20 12:02:30 /home/iainstott/android-sdk/tools 15864 iainstott   252  sudo reboot
+2016-11-20 12:02:34 /home/iainstott/android-sdk/tools 15864 iainstott   253  adb
+2016-11-20 12:02:44 /home/iainstott/android-sdk/tools 15864 iainstott   254  ./adb shell
+2016-11-20 12:02:49 /home/iainstott/android-sdk/tools 15864 iainstott   255  ls
+2016-11-20 12:03:54 /home/iainstott 15905 iainstott   252  sudo reboot
+2016-11-20 12:04:15 /home/iainstott/android-sdk/tools 15864 iainstott   256  android
+2016-11-20 12:07:47 /home/iainstott 16039 iainstott   252  sudo reboot
+2016-11-20 12:11:48 /home/iainstott 16272 iainstott   253  su
+2016-11-20 12:12:08 /home/iainstott 16272 iainstott   254  adb connect 192.168.0.25:5555
+2016-11-20 12:12:54 /home/iainstott 16272 iainstott   255  adb shell
+2016-11-20 12:20:11 /home/iainstott 16526 iainstott   253  su
+2016-11-20 12:20:46 /home/iainstott 16526 iainstott   254  adb connect 192.168.0.25:5555
+2016-11-20 12:20:55 /home/iainstott 16526 iainstott   254  adb connect 192.168.0.25:5555
+2016-11-20 12:20:56 /home/iainstott 16526 iainstott   254  adb connect 192.168.0.25:5555
+2016-11-20 12:21:50 /home/iainstott 16526 iainstott   255  ping 192.168.0.25
+2016-11-20 12:23:14 /home/iainstott/Downloads/ROMS 16526 iainstott   256  cd Downloads/ROMS/
+2016-11-20 12:23:16 /home/iainstott/Downloads/ROMS 16526 iainstott   257  ls
+2016-11-20 12:23:23 /home/iainstott/Downloads 16526 iainstott   258  cd ..
+2016-11-20 12:23:25 /home/iainstott/Downloads 16526 iainstott   259  ls
+2016-11-20 12:24:01 /home/iainstott/Downloads 16526 iainstott   260  adb install ADBTools-1.1-Test2.apk 
+2016-11-20 12:24:39 /home/iainstott/Downloads 16526 iainstott   261  adb connect 192.168.0.25:5555
+2016-11-20 12:25:00 /home/iainstott/Downloads 16526 iainstott   262  adb connect 192.168.0.25
+2016-11-20 12:25:15 /home/iainstott/Downloads 16526 iainstott   263  adb connect 192.168.0.25
+2016-11-20 12:27:07 /home/iainstott/Downloads 16526 iainstott   264  adb connect 192.168.0.25
+2016-11-20 12:29:43 /home/iainstott/Downloads 16526 iainstott   265  adb install ADBTools-1.1-Test2.apk 
+2016-11-20 12:36:10 /home/iainstott/Downloads/APK 16526 iainstott   266  cd APK/
+2016-11-20 12:36:40 /home/iainstott/Downloads/APK 16526 iainstott   267  adb install *.apk
+2016-11-20 12:37:40 /home/iainstott/Downloads/APK 16526 iainstott   268  adb install com.microsoft.office.outlook_2.1.108-163_minAPI15\(nodpi\)_apkmirror.com.apk 
+2016-11-20 12:38:03 /home/iainstott/Downloads/APK 16526 iainstott   269  adb connect 192.168.0.25
+2016-11-20 12:38:15 /home/iainstott/Downloads/APK 16526 iainstott   270  adb install *.apk
+2016-11-20 12:46:18 /home/iainstott/Downloads/APK 16526 iainstott   271  adb install com.microsoft.office.outlook_2.1.108-163_minAPI15\(nodpi\)_apkmirror.com.apk 
+2016-11-20 17:01:15 /home/iainstott/Downloads/APK 16526 iainstott   272  adb connect 192.168.0.25
+2016-11-20 17:01:27 /home/iainstott/Downloads/APK 16526 iainstott   273  adb install *.apk
+2016-11-20 17:01:35 /home/iainstott/Downloads/APK 16526 iainstott   274  adb install *.apk
+2016-11-20 17:01:37 /home/iainstott/Downloads/APK 16526 iainstott   275  adb connect 192.168.0.25
+2016-11-20 17:01:39 /home/iainstott/Downloads/APK 16526 iainstott   276  adb install *.apk
+2016-11-20 17:01:46 /home/iainstott/Downloads/APK 16526 iainstott   277  adb install com.whatsapp_2.16.361-451514_minAPI10\(armeabi\,armeabi-v7a\,mips\,x86\)\(nodpi\)_apkmirror.com.apk 
+2016-11-20 17:02:11 /home/iainstott/Downloads/APK 16526 iainstott   278  adb install *.apk
+2016-11-20 17:03:20 /home/iainstott/Downloads/APK 16526 iainstott   279  adb logcat
+2016-11-20 17:03:36 /home/iainstott/Downloads/APK 16526 iainstott   280  adb disconnect
+2016-11-20 17:03:46 /home/iainstott/Downloads/APK 16526 iainstott   281  adb logcat
+2016-11-20 17:04:42 /home/iainstott/Downloads/APK 16526 iainstott   282  adb logcat > logcat.txt
+2016-11-20 17:04:48 /home/iainstott 18665 iainstott   253  su
+2016-11-20 17:08:48 /home/iainstott/Downloads/APK 16526 iainstott   283  adb install *.apk
+2016-11-20 17:29:43 /home/iainstott/Downloads/APK 16526 iainstott   284  adb devices
+2016-11-20 17:46:27 /home/iainstott/Downloads/APK 16526 iainstott   285  adb devices
+2016-11-20 17:48:05 /home/iainstott/Downloads/APK 16526 iainstott   286  fastboot devices
+2016-11-20 17:49:12 /home/iainstott 16526 iainstott   287  cd 
+2016-11-20 17:49:39 /home/iainstott 16526 iainstott   288  git clone https://github.com/Benjamin-Dobell/Heimdall.git
+2016-11-20 17:49:47 /home/iainstott/Heimdall 16526 iainstott   289  cd Heimdall/
+2016-11-20 17:49:50 /home/iainstott/Heimdall 16526 iainstott   290  ls
+2016-11-20 17:49:55 /home/iainstott/Heimdall/Linux 16526 iainstott   291  cd Linux/
+2016-11-20 17:50:00 /home/iainstott/Heimdall/Linux 16526 iainstott   292  ls
+2016-11-20 17:50:06 /home/iainstott/Heimdall/Linux 16526 iainstott   293  cd README 
+2016-11-20 17:50:11 /home/iainstott/Heimdall/Linux 16526 iainstott   294  cat README 
+2016-11-20 17:50:44 /home/iainstott/Heimdall 16526 iainstott   295  cd ..
+2016-11-20 17:50:51 /home/iainstott/Heimdall 16526 iainstott   296  mkdir build
+2016-11-20 17:50:53 /home/iainstott/Heimdall/build 16526 iainstott   297  cd build/
+2016-11-20 17:50:54 /home/iainstott/Heimdall/build 16526 iainstott   298              cmake -DCMAKE_BUILD_TYPE=Release ..
+2016-11-20 17:52:02 /home/iainstott/Heimdall/build 16526 iainstott   299  sudo pacman -S build-essential cmake zlib1g-dev qt5-default libusb-1.0-0-dev opengl
+2016-11-20 17:53:37 /home/iainstott/Heimdall/build 16526 iainstott   300  sudo pacman -S cmake libusb qt4 android-udev
+2016-11-20 17:55:44 /home/iainstott/android-sdk/tools 15864 iainstott   257  ./android
+2016-11-20 17:56:16 /home/iainstott/android-sdk/tools 15864 iainstott   258  ./android
+2016-11-20 17:56:19 /home/iainstott/android-sdk/tools 15864 iainstott   259  ls
+2016-11-20 17:56:22 /home/iainstott 15864 iainstott   260  cd
+2016-11-20 17:56:23 /home/iainstott 15864 iainstott   261  ls
+2016-11-20 17:56:27 /home/iainstott 15864 iainstott   262  cd android-s
+2016-11-20 17:56:35 /home/iainstott/android-sdk 15864 iainstott   263  cd android-sdk
+2016-11-20 17:56:36 /home/iainstott/android-sdk 15864 iainstott   264  ls
+2016-11-20 17:56:44 /home/iainstott/android-sdk/platform-tools 15864 iainstott   265  cd platform-tools/
+2016-11-20 17:56:44 /home/iainstott/android-sdk/platform-tools 15864 iainstott   266  ls
+2016-11-20 17:58:41 /home/iainstott/Heimdall/build 16526 iainstott   301  sudo pacman -S heimdall
+2016-11-20 18:05:33 /home/iainstott/Downloads/Galaxy S3 20999 iainstott   267  ls
+2016-11-20 18:51:46 /home/iainstott 22915 iainstott   267  ls
+2016-11-20 18:52:01 /home/iainstott/android-studio/bin 22943 iainstott   267  ls
+2016-11-20 19:20:58 /home/iainstott/Downloads/Galaxy S3 20999 iainstott   268  egrep –c '(vmx|svm)' /proc/cpuinfo
+2016-11-20 19:21:07 /home/iainstott/Downloads/Galaxy S3 20999 iainstott   269  sudo egrep –c '(vmx|svm)' /proc/cpuinfo
+2016-11-20 19:21:34 /home/iainstott/Downloads/Galaxy S3 20999 iainstott   270  kvm-ok
+2016-11-20 19:25:56 /home/iainstott 23538 iainstott   267  ls
+2016-11-20 19:25:58 /home/iainstott 23538 iainstott   268  df -u
+2016-11-20 19:26:02 /home/iainstott 23538 iainstott   269  df -h
+2016-11-20 19:30:39 /home/iainstott 23538 iainstott   270  df -h
+2016-11-20 19:35:23 /home/iainstott/android-studio/bin 22943 iainstott   268  ./studio.sh 
+2016-11-20 19:36:36 /home/iainstott/android-studio/bin 22943 iainstott   269  sudo pacman -S qemu-kvm
+2016-11-20 19:44:14 /home/iainstott/Heimdall/build 16526 iainstott   302  su
+2016-11-20 19:44:16 /home/iainstott 16526 iainstott   303  cd
+2016-11-20 19:44:32 /home/iainstott 16526 iainstott   304  server
+2016-11-20 19:56:50 /home/iainstott 24434 iainstott   273  df -h
+2016-11-20 19:57:01 /home/iainstott 24448 iainstott   273  df -h
+2016-11-20 20:50:22 /home/iainstott 25936 iainstott   326  server
+2016-11-20 20:50:31 /home/iainstott/Downloads 25936 iainstott   327  cd Downloads/
+2016-11-20 20:50:45 /home/iainstott/Downloads 25936 iainstott   328  adb install Blackmart+Alpha\(www.Safetricks.net\).apk 
+2016-11-20 20:51:07 /home/iainstott/Downloads 25936 iainstott   329  adb install 1MobileMarket.apk 
+2016-11-20 20:51:39 /home/iainstott/Downloads 25936 iainstott   330  adb install com.ea.games.r3_row_v4.6.3-4630_Android-4.0.3.apk 
+2016-11-20 20:52:12 /home/iainstott/Downloads 25936 iainstott   331  adb install farming-pro-simulator-2017-full-Apkreal.com.apk 
+2016-11-20 20:52:25 /home/iainstott/Downloads 25936 iainstott   332  adb install Root.Essentials.Premium.v2.4.0_Apkreal.com.apk 
+2016-11-20 20:53:14 /home/iainstott/Downloads 25936 iainstott   333  adb install com.innogames.foeandroid_v1.86.0-149_Android-4.0.apk 
+2016-11-20 20:53:58 /home/iainstott/Downloads 25936 iainstott   334  adb install com.space.zero.gp_v1.0.19-520_Android-2.3.4.apk 
+2016-11-21 19:35:38 /home/iainstott 7249 iainstott   334  adb install com.space.zero.gp_v1.0.19-520_Android-2.3.4.apk 
+2016-11-21 20:06:09 /home/iainstott 8224 iainstott   335  raspi1
+2016-11-21 23:24:35 /home/iainstott 10106 iainstott   335  raspi1
+2016-11-21 23:30:51 /home/iainstott 10106 iainstott   336  server
+2016-11-23 16:20:30 /home/iainstott 357 iainstott   338  raspi1
+2016-11-23 16:20:50 /home/iainstott 357 iainstott   339  cat /var/log/pacman.log 
+2016-11-27 01:36:26 /home/iainstott 11152 iainstott   339  cat /var/log/pacman.log 
+2016-11-27 01:36:48 /home/iainstott 11152 iainstott   340  sudo pacman -S vlc
+2016-12-05 11:43:15 /home/iainstott 1156 iainstott   361  ssh iainstott@192.168.0.4
+2016-12-05 11:43:27 /home/iainstott 1156 iainstott   362  raspi2
+2016-12-05 11:45:54 /home/iainstott 1156 iainstott   363  server
+2016-12-05 12:55:15 /home/iainstott 1562 iainstott   363  server
+2016-12-08 12:09:20 /home/iainstott 4370 iainstott   364  server
+2016-12-08 12:09:26 /home/iainstott 4388 iainstott   364  server
+2016-12-08 12:09:30 /home/iainstott 4405 iainstott   364  server
+2016-12-08 12:09:36 /home/iainstott 4430 iainstott   364  server
+2016-12-08 20:00:25 /home/iainstott 12387 iainstott   364  server
+2016-12-08 20:01:10 /home/iainstott 12407 iainstott   364  server
+2016-12-08 20:03:30 /home/iainstott 12502 iainstott   364  server
+2016-12-10 17:11:14 /home/iainstott 24654 iainstott   364  server
+2016-12-10 21:07:52 /home/iainstott 1678 iainstott   365  server
+2016-12-10 21:08:25 /home/iainstott 1678 iainstott   366  sudo pacman -S virtualbox-host-modules-arch
+2016-12-10 21:08:54 /home/iainstott 1678 iainstott   367  sudo pacman -S virtualbox-host-dkms
+2016-12-10 21:09:16 /home/iainstott 1678 iainstott   368  sudo pacman -S virtualbox-host-dkms
+2016-12-10 21:09:27 /home/iainstott 1678 iainstott   369  sudo pacman -S virtualbox-host-arch
+2016-12-10 21:11:51 /home/iainstott 1678 iainstott   370  sudo pacman -S virtualbox
+2016-12-10 21:12:40 /home/iainstott 1678 iainstott   371  sudo /sbin/vboxconfig
+2016-12-10 21:13:21 /home/iainstott 1678 iainstott   372  sudo nano /etc/modules-load.d/virtualbox.conf
+2016-12-10 21:13:35 /home/iainstott 1678 iainstott   373  sudo gpasswd -a USER_NAME vboxusers 
+2016-12-10 21:13:43 /home/iainstott 1678 iainstott   374  sudo gpasswd -a iainstott vboxusers 
+2016-12-10 21:14:40 /home/iainstott 1678 iainstott   375  sudo yaourt virtualbox-ext-oracle
+2016-12-10 21:14:47 /home/iainstott 1678 iainstott   376  sudo yaourt virtualbox-ext-oracle
+2016-12-10 21:14:58 /home/iainstott 1678 iainstott   377  sudo yaourt virtualbox-ext-oracle
+2016-12-10 21:22:08 /home/iainstott 1712 iainstott   379  sudo mount -a
+2016-12-10 21:22:18 /home/iainstott 1712 iainstott   380  sudo /sbin/vboxconfig
+2016-12-10 21:22:22 /home/iainstott 1712 iainstott   381  sudo /bin/vboxconfig
+2016-12-10 21:22:26 /home/iainstott 1712 iainstott   382  sudo vboxconfig
+2016-12-10 21:24:05 /home/iainstott 1712 iainstott   383  sudo pacman -S virtualbox-host-modules
+2016-12-10 21:24:26 /home/iainstott 1712 iainstott   384  sudo modprobe vboxdrv
+2016-12-10 21:24:51 /home/iainstott 1712 iainstott   385  sudo depmod -a
+2016-12-10 21:24:53 /home/iainstott 1712 iainstott   386  sudo modprobe vboxdrv
+2016-12-10 21:25:24 /home/iainstott 1712 iainstott   387  sudo pacman -S virtualbox-host-modules-arch
+2016-12-10 21:25:45 /home/iainstott 1712 iainstott   388  sudo uname -a
+2016-12-10 21:26:04 /home/iainstott 1712 iainstott   389  sudo pacman -S 4.8.9.1-host-modules-arch
+2016-12-10 21:26:15 /home/iainstott 1712 iainstott   390  sudo pacman -S 4.8.9.1-MANJARO-host-modules-arch
+2016-12-10 21:26:35 /home/iainstott 1712 iainstott   391  sudo pacman -S 4.8.9.1-MANJARO-host-modules
+2016-12-10 21:26:53 /home/iainstott 1712 iainstott   392  sudo pacman -S 4.8.9.1-virtualbox-host-modules
+2016-12-10 21:27:08 /home/iainstott 1712 iainstott   393  sudo pacman -S 4.8.9-1-virtualbox-host-modules
+2016-12-10 21:27:19 /home/iainstott 1712 iainstott   394  sudo pacman -S 4.8.9-1-MANJARO-virtualbox-host-modules
+2016-12-10 21:27:25 /home/iainstott 1712 iainstott   395  sudo pacman -S 4.8-virtualbox-host-modules
+2016-12-10 21:28:18 /home/iainstott 1712 iainstott   396  sudo pacman -S linux48-virtualbox-host-modules
+2016-12-10 21:28:24 /home/iainstott 1712 iainstott   397  sudo modprobe vboxdrv
+2016-12-10 21:29:37 /home/iainstott 1712 iainstott   398  sudo yaourt virtualbox-ext-oracle
+2016-12-10 21:30:17 /home/iainstott 1712 iainstott   399  sudo yaourt virtualbox-ext-oracle
+2016-12-10 21:30:34 /home/iainstott 1712 iainstott   400  sudo yaourt virtualbox-ext-oracle
+2016-12-10 21:30:58 /home/iainstott 1712 iainstott   401  sudo yaourt virtualbox-ext-oracle
+2016-12-10 21:33:30 /home/iainstott 1712 iainstott   402  yaourt virtualbox-ext-oracle
+2016-12-10 21:36:38 /home/iainstott 1712 iainstott   403  vboxmanage
+2016-12-10 21:37:28 /home/iainstott 1712 iainstott   404  vboxmanage modifyvm "OSX" --cpuidset 00000001 000306a9 04100800 7fbae3ff bfebfbff
+2016-12-10 21:38:06 /home/iainstott 1712 iainstott   405  vboxmanage setextradata "OSX" 
+2016-12-10 21:38:16 /home/iainstott 1712 iainstott   406  vboxmanage setextradata "OSX" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "MacBookPro11,3"
+2016-12-10 21:38:24 /home/iainstott 1712 iainstott   407  reset
+2016-12-10 21:38:35 /home/iainstott 4124 iainstott   407  reset
+2016-12-10 21:39:39 /home/iainstott 4124 iainstott   408  vboxmanage managevm "OSX" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+2016-12-10 21:39:55 /home/iainstott 4124 iainstott   409  vboxmanage modifyevm "OSX" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+2016-12-10 21:40:01 /home/iainstott 4124 iainstott   410  vboxmanage modifyvm "OSX" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+2016-12-10 21:40:19 /home/iainstott 4124 iainstott   411  vboxmanage setextradata "OSX" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+2016-12-10 21:40:34 /home/iainstott 4124 iainstott   412  vboxmanage setextradata "OSX" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+2016-12-10 21:40:50 /home/iainstott 4124 iainstott   413  vboxmanage setextradata "OSX" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+2016-12-10 21:41:06 /home/iainstott 4124 iainstott   414  vboxmanage setextradata "OSX" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+2016-12-10 21:41:23 /home/iainstott 4124 iainstott   415  vboxmanage setextradata "OSX" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+2016-12-11 12:16:58 /home/iainstott 3016 iainstott   415  vboxmanage setextradata "OSX" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+2016-12-11 12:17:16 /home/iainstott 3016 iainstott   416  sudo chmod 777 /run/media/iainstott/MJRO1610/
+2016-12-11 12:18:21 /home/iainstott 3143 iainstott   415  vboxmanage setextradata "OSX" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+2016-12-11 12:18:49 /home/iainstott 3143 iainstott   416  sudo chown -R iainstott:users /run/media/iainstott/MJRO1610/
+2016-12-11 12:21:24 /home/iainstott 3510 iainstott   416  sudo chown -R iainstott:users /run/media/iainstott/MJRO1610/
+2016-12-11 12:21:34 /home/iainstott 3510 iainstott   417  sudo gparted
+2016-12-11 12:36:25 /home/iainstott 2001 iainstott   416  sudo chown -R iainstott:users /run/media/iainstott/MJRO1610/
+2016-12-11 15:54:30 /home/iainstott 5887 iainstott   416  sudo chown -R iainstott:users /run/media/iainstott/MJRO1610/
+2016-12-11 16:00:03 /home/iainstott 6021 iainstott   416  sudo chown -R iainstott:users /run/media/iainstott/MJRO1610/
+2016-12-11 16:00:36 /home/iainstott 6021 iainstott   417  raspi1
+2016-12-11 16:09:20 /home/iainstott 6021 iainstott   418  server
+2016-12-11 16:09:34 /home/iainstott 6021 iainstott   419  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:11:03 /home/iainstott 6021 iainstott   420  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:16:34 /home/iainstott 6021 iainstott   421  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:16:48 /home/iainstott 6021 iainstott   422  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:19:05 /home/iainstott 6021 iainstott   423  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:28:04 /home/iainstott 6021 iainstott   424  server
+2016-12-11 16:28:06 /home/iainstott 6021 iainstott   425  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:28:44 /home/iainstott 6021 iainstott   426  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:31:01 /home/iainstott 6021 iainstott   427  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:36:08 /home/iainstott 6021 iainstott   428  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:37:55 /home/iainstott 6021 iainstott   429  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:39:13 /home/iainstott 6021 iainstott   430  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:39:51 /home/iainstott 6021 iainstott   431  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:40:24 /home/iainstott 10194 iainstott   416  sudo chown -R iainstott:users /run/media/iainstott/MJRO1610/
+2016-12-11 16:42:36 /home/iainstott 6021 iainstott   432  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:44:38 /home/iainstott 6021 iainstott   433  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:45:27 /home/iainstott 6021 iainstott   434  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:48:32 /home/iainstott 6021 iainstott   435  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:50:20 /home/iainstott 6021 iainstott   436  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:50:52 /home/iainstott 6021 iainstott   437  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:51:33 /home/iainstott 6021 iainstott   438  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:52:13 /home/iainstott 6021 iainstott   439  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:52:46 /home/iainstott 6021 iainstott   440  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:53:11 /home/iainstott 6021 iainstott   441  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:57:28 /home/iainstott 6021 iainstott   442  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:57:42 /home/iainstott 6021 iainstott   443  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:58:25 /home/iainstott 6021 iainstott   444  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 16:59:02 /home/iainstott 6021 iainstott   445  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 17:00:00 /home/iainstott 6021 iainstott   446  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 17:00:17 /home/iainstott 6021 iainstott   447  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 17:00:38 /home/iainstott 6021 iainstott   448  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 17:01:23 /home/iainstott 6021 iainstott   449  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 18:38:00 /home/iainstott 17760 iainstott   449  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 18:47:33 /home/iainstott 5422 iainstott   449  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 18:51:08 /home/iainstott 26593 iainstott   449  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 18:54:02 /home/iainstott 27323 iainstott   449  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 18:55:05 /home/iainstott 27323 iainstott   450  ./GitRepo/Scripts/localMenu 
+2016-12-11 19:00:30 /home/iainstott 27323 iainstott   451  ./GitRepo/Scripts/localMenu 
+2016-12-11 19:17:34 /home/iainstott 27323 iainstott   452  rsync -aAXHv --delete-during /home/iainstott/Kodi/ /mnt/Backup/Iains/KodiRepo/
+2016-12-11 19:22:42 /home/iainstott 27323 iainstott   453  ./GitRepo/Scripts/localMenu 
+2016-12-11 19:27:45 /home/iainstott 27323 iainstott   454  ./GitRepo/Scripts/localMenu 
+2016-12-11 19:30:27 /home/iainstott 27323 iainstott   455  ./GitRepo/Scripts/localMenu 
+2016-12-11 19:32:54 /home/iainstott 27323 iainstott   456  ./GitRepo/Scripts/localMenu 
+2016-12-11 19:35:56 /home/iainstott 27323 iainstott   457  ./GitRepo/Scripts/localMenu 
+2016-12-11 19:36:55 /home/iainstott 27323 iainstott   458  ./GitRepo/Scripts/localMenu 
+2016-12-11 19:38:52 /home/iainstott 17760 iainstott   450  yaourt kodi-devel-pvr-iptvsimple
+2016-12-11 19:40:44 /home/iainstott 17760 iainstott   451  yaourt -S kodi-addon-pvr-iptvsimple-git
+2016-12-11 19:43:53 /home/iainstott 17760 iainstott   452  yaourt -S kodi-addon-pvr-tvheadend-hts
+2016-12-11 19:44:05 /home/iainstott 17760 iainstott   453  yaourt kodi-devel-pvr-tvheadend
+2016-12-11 19:44:11 /home/iainstott 17760 iainstott   454  yaourt -S kodi-addon-pvr-tvheadend
+2016-12-11 19:45:31 /home/iainstott 17760 iainstott   455  yaourt -S kodi-addon-pvr-hts-git
+2016-12-11 19:53:49 /home/iainstott 17760 iainstott   456  wget http://uk-mega-iptv.is-found.org:25461/get.php?username=IainStott&password=QAcEiPTJsK&type=m3u&output=ts
+2016-12-11 19:54:01 /home/iainstott 17760 iainstott   456  wget http://uk-mega-iptv.is-found.org:25461/get.php?username=IainStott&password=QAcEiPTJsK&type=m3u&output=ts
+2016-12-11 19:59:26 /home/iainstott/GitRepo 17760 iainstott   457  cd GitRepo
+2016-12-11 19:59:27 /home/iainstott/GitRepo 17760 iainstott   458  ls
+2016-12-11 19:59:41 /home/iainstott/GitRepo 17760 iainstott   459  git clone 
+2016-12-11 20:00:35 /home/iainstott/GitRepo 17760 iainstott   460  git clone https://github.com/elephunk84/KodiRepo.git
+2016-12-11 20:00:41 /home/iainstott/GitRepo 17760 iainstott   461  cd Kodi
+2016-12-11 20:00:45 /home/iainstott/GitRepo/KodiRepo 17760 iainstott   462  cd KodiRepo/
+2016-12-11 20:00:47 /home/iainstott/GitRepo/KodiRepo 17760 iainstott   463  ls
+2016-12-11 20:01:50 /home/iainstott/GitRepo/KodiRepo 17760 iainstott   464  wget https://raw.githubusercontent.com/chadparry/kodi-repository.chad.parry.org/master/tools/create_repository.py && chmod +x create_repository.py
+2016-12-11 20:01:58 /home/iainstott/GitRepo/KodiRepo 17760 iainstott   465  ./create_repository.py 
+2016-12-11 20:02:00 /home/iainstott/GitRepo/KodiRepo 17760 iainstott   466  ls
+2016-12-11 20:11:41 /home/iainstott/GitRepo/KodiRepo 17760 iainstott   467  kodi -v
+2016-12-11 20:12:04 /home/iainstott/GitRepo/KodiRepo 17760 iainstott   468  kodi -vv
+2016-12-11 20:18:06 /home/iainstott/GitRepo/KodiRepo 17760 iainstott   469  kodi -vv
+2016-12-11 20:18:25 /home/iainstott 26166 iainstott   449  sh ./bin/bash/IPTVListSort.sh 
+2016-12-11 20:23:42 /home/iainstott 1814 iainstott   479  sudo reboot
+2016-12-11 20:24:52 /home/iainstott 1964 iainstott   479  sudo reboot
+2016-12-11 20:25:31 /home/iainstott 2067 iainstott   479  sudo reboot
+2016-12-11 20:26:38 /home/iainstott 2153 iainstott   479  sudo reboot
+2016-12-11 21:18:31 /home/iainstott 2008 iainstott   479  sudo reboot
+2016-12-11 21:24:20 /home/iainstott 3885 iainstott   479  sudo reboot
+2016-12-11 21:24:45 /home/iainstott 4097 iainstott   479  sudo reboot
+2016-12-11 21:26:22 /home/iainstott 4748 iainstott   479  sudo reboot
+2016-12-11 21:48:24 /home/iainstott 19979 iainstott   479  sudo reboot
