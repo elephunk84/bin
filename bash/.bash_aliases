@@ -95,6 +95,7 @@ alias cleanup="sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get
 alias wakebladeserver="ssh pi@192.168.0.5 'gpio write 1 0' && sleep 10 && wakeonlan 00:1a:64:23:e5:32"
 alias sleepbladeserver="ssh iainstott@192.168.0.6 -t 'sudo poweroff -n'" 
 alias reboot="sudo shutdown -r now"
+alias manualiptv="ssh -Y iainstott@192.168.0.2 'source /home/iainstott/GitRepo/Scripts/lib/bash/kodiSORTIPTV; kodiSORTIPTV_GUI'"
 alias wget="wget -c"
 alias arduino="/opt/arduino-1.6.9/arduino"
 alias arduino-dev="ssh -Y pi@192.168.0.130 arduino"
