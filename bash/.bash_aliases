@@ -96,6 +96,7 @@ alias wakebladeserver="ssh pi@192.168.0.5 'gpio write 1 0' && sleep 10 && wakeon
 alias sleepbladeserver="ssh iainstott@192.168.0.6 -t 'sudo poweroff -n'" 
 alias reboot="sudo shutdown -r now"
 alias manualiptv="ssh -Y iainstott@192.168.0.2 'source /home/iainstott/GitRepo/Scripts/lib/bash/kodiSORTIPTV; kodiSORTIPTV_GUI'"
+alias burndvd="ssh -Y iainstott@192.168.0.2 'source /home/iainstott/GitRepo/Scripts/lib/bash/burnISO; burnISOGUI'"
 alias wget="wget -c"
 alias arduino="/opt/arduino-1.6.9/arduino"
 alias arduino-dev="ssh -Y pi@192.168.0.130 arduino"
